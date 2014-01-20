@@ -1,0 +1,4948 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video
+	{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+//	font-size: 100%;
+//	font: inherit;
+	font-size: 14px;
+	vertical-align: baseline;
+	line-height: 1.2;
+}
+
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section
+	{
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+h2 {
+	padding:5px 0 11px 0px;
+	font-size: 1.125rem;;
+}
+
+ol,ul {
+	list-style: none;
+}
+
+blockquote,q {
+	quotes: none;
+}
+
+blockquote:before,blockquote:after,q:before,q:after {
+	content: '';
+	content: none;
+}
+
+ins {
+	text-decoration: none;
+}
+
+del {
+	text-decoration: line-through;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.ie7 li {
+	list-style-position: outside;
+}
+
+.availability-future {
+	color: #E57300;
+}
+
+.availability-questionable {
+	color: #333;
+}
+
+.availability-now {
+	color: #278F00;
+}
+
+body {
+	font-size: 11px;
+	font-size: 0.7rem;
+	font-family: LEGOStdNormal, Arial, Helvetica, Sans-Serif;
+	font-weight: normal;
+	color: #3b3b3b;
+}
+
+.KR body {
+	font-size: 11px;
+	font-size: 0.7rem;
+}
+
+a {
+	font-family: LEGOStdNormal, Arial, Helvetica, Sans-Serif;
+	color: #0057ab;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #0057ab;
+}
+
+a:visited {
+	color: #0057ab;
+}
+
+h1.page-header {
+	font-family: LEGOStdBold, Arial, Helvetica, Sans-Serif;
+	font-size: 32px;
+	font-size: 2rem;
+	font-weight: bold;
+}
+
+h1.page-header-icon {
+	font-family: LEGOStdBold, Arial, Helvetica, Sans-Serif;
+	font-size: 32px;
+	font-size: 2rem;
+	height: 45px;
+	font-weight: bold;
+	background-repeat: no-repeat;
+	padding: 6px 0 0 55px;
+	margin: 0 0 16px 0;
+	position: relative;
+	text-transform: uppercase;
+}
+
+.KR h1.page-header-icon {
+	font-size: 24px;
+	font-size: 1.5rem;
+}
+
+h2.tout-header-icon {
+	background-repeat: no-repeat;
+	font-family: LEGOStdBold, Arial, Helvetica, Sans-Serif;
+	font-size: 35px;
+	font-size: 2.2rem;
+	font-weight: bold;
+	min-height: 50px;
+	padding: 13px 0 0 80px;
+	position: relative;
+	text-transform: uppercase;
+}
+
+h2.tout-header-icon>sup {
+	font-size: 16px;
+	font-size: 1rem;
+	font-style: italic;
+	font-weight: normal;
+	position: absolute;
+	top: 0;
+	left: 80px;
+}
+
+h2.tout-header-icon.named-tout {
+	background-image:
+		url(https://a248.e.akamai.net/cache.lego.com/images/shop/shop11/Common/Icons/icons-sprite-lowres.png);
+}
+
+h2.paragraph-header {
+	font-family: LEGOStdBold, Arial, Helvetica, Sans-Serif;
+	font-size: 35px;
+	font-size: 2.2rem;
+	font-weight: bold;
+	text-transform: uppercase;
+	position: relative;
+	padding: 10pt 0 0 0;
+}
+
+h2.paragraph-header>sup {
+	font-size: 16px;
+	font-size: 1rem;
+	font-style: italic;
+	font-weight: normal;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.shop-notice {
+	padding: 0 0 0 25px;
+	background:
+		url(https://a248.e.akamai.net/cache.lego.com/images/shop/shop11/Common/Icons/icon-notification.png)
+		no-repeat left 0;
+	color: #dc0014;
+	text-align: left;
+}
+
+#cartForm .shop-notice {
+	position: absolute;
+	top: 15px;
+	left: 0;
+}
+
+.shop-notice p {
+	margin: 0 0 20px;
+}
+
+form.default input[type='text'],form.default .pseudo-input {
+	height: 27px;
+	font-size: 11px;
+	font-size: 0.7rem;
+	border: 0;
+	padding: 0 0 0 12px;
+	background:
+		url(https://a248.e.akamai.net/cache.lego.com/images/shop/shop11/Common/bg-inputs-sprite-trans.png)
+		-3px -3px no-repeat;
+	text-align: left;
+	text-transform: none;
+	font-weight: normal;
+}
+
+.KR form.default input[type='text'],.KR form.default .pseudo-input {
+	font-size: 10px;
+	font-size: 0.625rem;
+}
+
+.ie7 form.default input[type='text'],.ie7 form.default .pseudo-input,.ie8 form.default input[type='text'],.ie8 form.default .pseudo-input
+	{
+	line-height: 26px;
+}
+
+form.default .form-error+input[type='text'] {
+	background-position: -3px -127px;
+}
+
+form.default input[type='text'].prompt {
+	text-transform: uppercase;
+	color: #999999;
+}
+
+form.default label,form.default .pseudo-label {
+	font-family: LEGOSemiBold, Arial, Helvetica, Sans-Serif;
+	margin: 0 0 10px 0;
+	display: block;
+	text-transform: uppercase;
+}
+
+.KR form.default label,.KR form.default .pseudo-label {
+	font-size: 11px;
+	font-size: 0.688rem;
+}
+
+form.default label>input {
+	display: block;
+	margin-top: 5px;
+}
+
+form.default label>textarea {
+	display: block;
+	margin-top: 5px;
+	overflow: hidden;
+}
+
+form.default label.checkbox,form.default label.radio {
+	position: relative;
+	padding: 3px 0 0 25px;
+}
+
+form.default label.checkbox>input[type='checkbox'],form.default label.radio>input[type='radio']
+	{
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+
+.form-error,.field-error {
+	color: #dc0014;
+	display: block;
+	text-transform: none;
+	font-weight: normal;
+}
+
+table.default-table,table.default-table>* {
+	border-color: #cccccc;
+	border-style: solid;
+	border-width: 0;
+}
+
+table.default-table {
+	width: 100%;
+	border-width: 0 0 1px 0;
+}
+
+table.default-table tr {
+	
+}
+
+table.default-table tr th:first-child {
+	border-width: 0;
+	-moz-border-radius: 5px 0 0 0;
+	border-radius: 5px 0 0 0;
+}
+
+table.default-table tr th:last-child {
+	-moz-border-radius: 0 5px 0 0;
+	border-radius: 0 5px 0 0;
+}
+
+table.default-table tr th {
+	font-weight: bold;
+	padding: 10px 0;
+	text-align: center;
+}
+
+table.default-table td {
+	border-width: 1px 1px 0 1px;
+	border-color: #cccccc;
+	border-style: solid;
+}
+
+table.default-table.table-style-2 tr th:first-child {
+	border-width: 0;
+}
+
+table.default-table.table-style-2>tbody>tr>th {
+	color: #ffffff;
+	border-width: 0 0 0 1px;
+	border-style: solid;
+	border-color: #d67923;
+	background-color: #ffffff;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#fead0d),
+		to(#d67923));
+	background-image: -webkit-linear-gradient(top, #fead0d, #d67923);
+	background-image: -moz-linear-gradient(top, #fead0d, #d67923);
+	background-image: -ms-linear-gradient(top, #fead0d, #d67923);
+	background-image: -o-linear-gradient(top, #fead0d, #d67923);
+	background-image: linear-gradient(#fead0d, #d67923);
+}
+
+.ie7 table.default-table.table-style-2>tbody>tr>th {
+	height: 100%;
+}
+
+.access {
+	position: absolute;
+	top: 0;
+	left: -9999px
+}
+
+#container {
+	width: 100%;
+}
+
+.js #pageOverlay {
+	width: 100%;
+	height: 100%;
+	opacity: 0.95;
+	filter: alpha(opacity = 80);
+	background:
+		url(https://a248.e.akamai.net/cache.lego.com/images/shop/shop11/Common/page-loading.gif)
+		center center no-repeat #ffffff;
+	z-index: 100000;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+#main {
+	width: 950px;
+	margin: 0 auto;
+	text-align: left;
+}
+
+#header {
+	height: 60px;
+	background-repeat: repeat-x;
+	background-position: top center;
+}
+
+#GHwrapper {
+	height: 58px;
+	width: 950px;
+	margin: 0 auto;
+}
+
+#shop-header {
+	height: 105px;
+	width: 950px;
+	margin: 0 auto;
+	position: relative;
+}
+
+#shop-header #homeLink {
+	height: 99px;
+	width: 208px;
+	position: absolute;
+	top: 10px;
+	left: -30px;
+	background:
+		url(https://a248.e.akamai.net/cache.lego.com/images/shop/shop11/Common/Header/header-shop-title.png)
+		no-repeat;
+	text-indent: -9999px;
+}
+
+.KR #shop-header #homeLink {
+	background:
+		url(https://a248.e.akamai.net/cache.lego.com/images/shop/shop11/Common/Header/header-shop-title-kr.png)
+		no-repeat;
+}
+
+#shop-header #homeLink a {
+	display: block;
+	height: 100%;
+	width: 100%;
+	text-indent: -9999px;
+}
+
+#shop-header>#header-tout {
+	height: 60px;
+	left: 205px;
+	position: absolute;
+	top: 40px;
+	width: 490px;
+	overflow: hidden;
+}
+
+#shop-header>ul {
+	width: 100%;
+	text-align: right;
+	padding: 8px 0 0 0;
+}
+
+#shop-header>ul>li {
+	font-family: LEGOSemiBold, Arial, Helvetica, Sans-Serif;
+	font-size: 10px;
+	font-size: 0.625rem;
+	display: inline-block;
+	background:
+		url(https://a248.e.akamai.net/cache.lego.com/images/shop/shop11/Common/bg-list-bullet-shopheader.png)
+		no-repeat left;
+	padding: 0 0 0 32px;
+	text-transform: uppercase;
+}
+
+.ie7 #shop-header>ul>li {
+	display: inline;
+	zoom: 1;
+}
+
+#shop-header>ul>li:first-child {
+	background: none;
+	padding-left: 0;
+}
+
+#shop-header>ul>li>a {
+	color: #3B3B3B;
+	font-family: LEGOSemiBold, Arial, Helvetica, Sans-Serif;
+}
+
+.KR #shop-header>ul>li>a {
+	font-family: LEGOStdNormal, Arial, Helvetica, Sans-Serif;
+}
+
+#shop-header>ul>li#country-selector-link>a {
+	background:
+		url(https://a248.e.akamai.net/cache.lego.com/images/shop/shop11/Common/bg-linkarrow-dkgrey.png)
+		no-repeat right center;
+	padding: 0 8px 0 22px;
+	position: relative;
+}
+
+#shop-header>ul>li#country-selector-link>a>img {
+	position: absolute;
+	top: 1px;
+	left: 0;
+}
+
+#container>#main>#column-1,#container>#main>#column-2 {
+	display: inline-block;
+	vertical-align: top;
+	position: relative;
+}
+
+.ie7 #container>#main>#column-1,.ie7 #container>#main>#column-2 {
+	zoom: 1;
+	display: inline;
+	padding-bottom: 20px;
+}
+
+#wishlist-modal-signin {
+	background:
+		url(https://a248.e.akamai.net/cache.lego.com/images/shop/shop11/Common/bg-wishlist-modal-minifig.png)
+		no-repeat top left;
+	height: 280px;
+	margin: 20px 0 0 20px;
+	padding-left: 200px;
+	width: 360px;
+}
+
+#wishlist-modal-signin h1 {
+	font-family: LEGOStdBold, Arial, Helvetica, Sans-Serif;
+	font-size: 32px;
+	font-size: 2rem;
+	font-weight: bold;
+	margin: 10px 0 30px;
+	text-transform: uppercase;
+}
+
+.KR #wishlist-modal-signin h1 {
+	font-size: 32px;
+	font-size: 2rem;
+}
+
+#wishlist-modal-signin h1+p {
+	margin-bottom: 5px;
+}
+
+#wishlist-modal-signin>a {
+	display: block;
+	margin-top: 15px;
+}
+
+#footer-wrapper-gr,#footer-wrapper-wh {
+	width: 100%;
+	padding-bottom: 20px;
+}
+
+#footer-wrapper-wh>div,#footer-wrapper-gr>div {
+	margin: 0 auto;
+	width: 950px;
+	position: relative;
+	z-index: 3;
+}
+
+#footer-wrapper-wh {
+	background-color: #fff;
+	border-bottom: 1px solid #d7e0e5;
+	border-top: 1px solid #d7e0e5;
+	position: relative;
+}
+
+#footer-wrapper-wh>div {
+	min-height: 115px;
+	padding: 29px 0;
+	position: relative;
+}
+
+#footer-wrapper-wh dl {
+	display: inline-block;
+	font-size: 0;
+	position: relative;
+	vertical-align: top;
+	z-index: 3;
+}
+
+.KR #footer-wrapper-wh dl {
+	font-size: 0;
+}
+
+.ie7 #footer-wrapper-wh dl {
+	zoom: 1;
+	display: inline;
+}
+
+#footer-wrapper-wh div+dl {
+	width: 400px;
+}
+
+#footer-wrapper-wh div+dl+dl {
+	width: 275px;
+}
+
+.ie7 #footer-wrapper-wh dl:first-child+dl+dl {
+	zoom: 1;
+	display: inline;
+}
+
+#footer-wrapper-wh div:first-child dl:first-child+dl+dl>dl {
+	text-align: left;
+}
+
+#footer-wrapper-wh div dl>dd {
+	font-size: 11px;
+	font-size: 0.7rem;
+	padding: 0 0 1px 2px;
+}
+
+.KR #footer-wrapper-wh div dl>dd {
+	font-size: 11px;
+	font-size: 0.7rem;
+}
+
+#footer-wrapper-wh>div dl>dd:first-child {
+	padding: 2px 0;
+}
+
+#footer-wrapper-wh>div dl>dd>a {
+	color: #55575d;
+	font-family: LEGOSemiBold;
+	font-size: 10px;
+	font-size: 0.625rem;
+}
+
+.KR #footer-wrapper-wh>div dl>dd>a {
+	font-family: LEGOStdNormal, Arial, Helvetica, Sans-Serif;
+}
+
+#footer-wrapper-wh>div dl>dt {
+	font-family: LEGOStdBold, Arial, Helvetica, Sans-Serif;
+	font-size: 16px;
+	font-size: 1rem;
+	margin-bottom: 3px;
+	text-transform: uppercase;
+}
+
+.KR #footer-wrapper-wh>div dl>dt {
+	font-size: 16px;
+	font-size: 1rem;
+}
+
+#footer-wrapper-gr {
+	background-color: #f5f4f4;
+}
+
+#footer-wrapper-gr>div {
+	font-family: Verdana, "Helvetica Neue", Helvetica, Sans-Serif;
+	padding: 15px 0;
+}
+
+#footer-wrapper-gr>div>p {
+	color: #9b9590;
+	font-size: 9px;
+	font-size: 0.563rem;
+	margin-top: 15px;
+	position: relative;
+	z-index: 3
+}
+
+.KR #footer-wrapper-gr>div>p {
+	font-size: 10px;
+	font-size: 0.625rem;
+}
+
+#footer-wrapper-gr>div>p:first-child,#footer-wrapper-gr>div>p:first-child+p
+	{
+	margin-top: 3px;
+}
+
+#footer-image-one {
+	background-image:
+		url(https://a248.e.akamai.net/cache.lego.com/images/shop/shop11/Common/Footer/footer-minifig-shop.png);
+	height: 195px;
+	left: -200px;
+	position: absolute;
+	width: 200px;
+	top: 20px
+}
+
+#footer-image-two {
+	background-image:
+		url(https://a248.e.akamai.net/cache.lego.com/images/shop/shop11/Common/Footer/footer-minifig-vip.png);
+	height: 195px;
+	left: 950px;
+	position: absolute;
+	width: 160px;
+	top: 20px
+}
+
+.IOS #footer-image-one,.IOS #footer-image-two {
+	display: none
+}
+
+#bottom-banner {
+	background-color: #f5f9fd;
+	border-top: 1px solid #d9e1e5;
+	border-bottom: 1px solid #d9e1e5;
+	padding: 15px 15px;
+	position: relative;
+	margin-top: 125px;
+	font-size: 5px;
+}
+
+#bottom-banner>p {
+	font-size: 10px;
+}
+
+#bottom-banner>h3 {
+	font-size: 10px;
+}
+
+#bottom-banner>div {
+	width: 950px;
+	margin: auto;
+	font-size: 0;
+}
+
+.KR #bottom-banner>div {
+	font-size: 0;
+}
+
+#bottom-banner>div>div {
+	display: inline-block;
+	width: 308px;
+	height: 150px;
+}
+
+.ie7 #bottom-banner>div>div {
+	display: inline;
+	zoom: 1;
+}
+
+#bottom-banner>div>div ~ div {
+	margin-left: 10px;
+}
+
+.js .box-cornered {
+	padding: 12px;
+	position: relative;
+}
+
+.js .box-cornered>span.top-left {
+	background:
+		url(https://a248.e.akamai.net/cache.lego.com/images/shop/shop11/Common/bg-round-topleft.png)
+		no-repeat;
+	height: 5px;
+	width: 5px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 4;
+}
+
+.js .box-cornered>span.top-right {
+	background:
+		url(https://a248.e.akamai.net/cache.lego.com/images/shop/shop11/Common/bg-round-topright.png)
+		no-repeat;
+	height: 9px;
+	width: 9px;
+	position: absolute;
+	right: -3px;
+	top: 0;
+	z-index: 4;
+}
+
+.js .box-cornered>span.top {
+	border-top: 1px solid #d7d7d7;
+	height: 1px;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 2;
+}
+
+.js .box-cornered>span.left {
+	border-left: 1px solid #d7d7d7;
+	height: 100%;
+	width: 1px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 2;
+}
+
+.js .box-cornered>span.right {
+	background:
+		url(https://a248.e.akamai.net/cache.lego.com/images/shop/shop11/Common/bg-round-right.png)
+		repeat-y;
+	width: 4px;
+	height: 100%;
+	position: absolute;
+	right: -3px;
+	top: 0;
+	z-index: 2;
+}
+
+.js .box-cornered>span.bottom-right {
+	background:
+		url(https://a248.e.akamai.net/cache.lego.com/images/shop/shop11/Common/bg-round-bottomright.png)
+		no-repeat;
+	height: 10px;
+	width: 9px;
+	position: absolute;
+	bottom: -3px;
+	right: -3px;
+	z-index: 4;
+}
+
+.js .box-cornered>span.bottom {
+	background:
+		url(https://a248.e.akamai.net/cache.lego.com/images/shop/shop11/Common/bg-round-bottom.png)
+		repeat-x;
+	height: 5px;
+	width: 100%;
+	position: absolute;
+	bottom: -3px;
+	left: 0;
+	z-index: 2;
+}
+
+.js .box-cornered>span.bottom-left {
+	background:
+		url(https://a248.e.akamai.net/cache.lego.com/images/shop/shop11/Common/bg-round-bottomleft.png)
+		no-repeat;
+	height: 10px;
+	width: 8px;
+	position: absolute;
+	left: 0;
+	bottom: -3px;
+	z-index: 4;
+}
+
+hr.default {
+	border: none;
+	border-top: 1px solid #cecece;
+	border-bottom: 1px solid #ffffff;
+}
+
+#vip-small-widget {
+	position: absolute;
+	top: 39px;
+	right: 0px;
+	height: 60px;
+	width: 300px;
+	padding: 0;
+	font-family: LEGOStdNormal, Arial, Helvetica, Sans-Serif;
+	font-size: 9px;
+	font-size: 0.563rem;
+	background: -moz-linear-gradient(top, #ffffff, #e7e7e7);
+	background: -webkit-gradient(linear, left top, left bottom, from(#ffffff),
+		to(#e7e7e7));
+}
+
+.KR #vip-small-widget {
+	font-size: 9px;
+	font-size: 0.563rem;
+}
+
+.no-cssgradients #vip-small-widget {
+	background-color: #f2f2f2;
+	background-image:
+		url(https://a248.e.akamai.net/cache.lego.com/images/shop/shop11/Common/Backgrounds/grayGradient-sprite.png);
+	background-repeat: repeat-x;
+}
+
+#vip-small-widget.anonymous,#vip-small-widget.not-enrolled {
+	text-align: center;
+}
+
+#vip-small-widget.partially-enrolled,#vip-small-widget.enrolled {
+	text-align: left;
+}
+
+#vip-small-widget>h4 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-image:
+		url("https://a248.e.akamai.net/cache.lego.com/images/shop/shop11/Common/Icons/icons-sprite-lowres.png");
+	background-position: 10px -644px;
+	background-repeat: no-repeat;
+	font-family: LEGOStdBold, Arial, Helvetica, Sans-Serif;
+}
+
+#vip-small-widget.anonymous>h4,#vip-small-widget.not-enrolled>h4 {
+	font-size: 14px;
+	font-size: 0.875rem;
+	text-transform: uppercase;
+}
+
+.KR #vip-small-widget.not-enrolled>h4 {
+	font-size: 12px;
+	font-size: 0.75rem;
+}
+
+#vip-small-widget.anonymous>h4>a,#vip-small-widget.not-enrolled>h4>a {
+	color: #3B3B3B;
+	display: block;
+	height: 50px;
+	padding: 10px 0 0 60px;
+	width: 240px;
+	font-family: LEGOStdBold, Arial, Helvetica, Sans-Serif;
+}
+
+#vip-small-widget.anonymous>h4>a:hover,#vip-small-widget.not-enrolled>h4>a:hover
+	{
+	text-decoration: none;
+}
+
+#vip-small-widget>a {
+	position: relative;
+	font-family: LEGOSemiBold, Arial, Helvetica, Sans-Serif;
+	font-size: 10px;
+	font-size: 0.625rem;
+	display: inline-block;
+	text-align: center;
+}
+
+.KR #vip-small-widget>a {
+	font-family: LEGOStdNormal, Arial, Helvetica, Sans-Serif;
+	font-size: 10px;
+	font-size: 0.625rem;
+}
+
+#vip-small-widget>a.sign-up-link,#vip-small-widget>a.sign-in-link {
+	left: 12%;
+	position: relative;
+	top: 32px;
+	width: 35%;
+}
+
+#vip-small-widget.not-enrolled>a {
+	left: 12%;
+	position: relative;
+	top: 32px;
+}
+
+#vip-small-widget.partially-enrolled>h4,#vip-small-widget.enrolled>h4 {
+	font-size: 0.688rem;
+	height: 54px;
+	padding: 6px 0 0 0;
+	width: 170px;
+}
+
+.KR #vip-small-widget.enrolled>h4 {
+	font-size: 0.688rem;
+}
+
+#vip-small-widget.partially-enrolled>h4>a,#vip-small-widget.enrolled>h4>a
+	{
+	display: block;
+	height: 36px;
+	padding-left: 75px;
+	width: 161px;
+	color: #777D7E;
+}
+
+#vip-small-widget.partially-enrolled>h4>a:hover,#vip-small-widget.enrolled>h4>a:hover
+	{
+	text-decoration: none;
+}
+
+#vip-small-widget.partially-enrolled>p,#vip-small-widget.enrolled>p {
+	left: 25%;
+	position: relative;
+	top: 22px;
+	width: 72%;
+}
+
+.medium-widget {
+	background-color: #ecf3f9;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#ffffff),
+		to(#e4edf6));
+	background-image: -webkit-linear-gradient(top, #ffffff, #e4edf6);
+	background-image: -moz-linear-gradient(top, #ffffff, #e4edf6);
+	background-image: -ms-linear-gradient(top, #ffffff, #e4edf6);
+	background-image: -o-linear-gradient(top, #ffffff, #e4edf6);
+	background-image: linear-gradient(#ffffff, #e4edf6);
+	font-size: 9px;
+	font-size: 0.563rem;
+	color: #777D7E;
+	font-size: 9px;
+	font-size: 0.563rem;
+	margin-bottom: 12px;
+	padding: 12px;
+	width: 178px;
+}
+
+.KR .medium-widget {
+	font-size: 11px;
+	font-size: 0.688rem;
+	color: #3b3b3b;
+}
+
+.ie7 .medium-widget {
+	height: 100%;
+}
+
+.medium-widget>h4 {
+	min-height: 33px;
+	background:
+		url(https://a248.e.akamai.net/cache.lego.com/images/shop/shop11/Common/Icons/icons-sprite-lowres.png)
+		no-repeat;
+}
+
+.medium-widget.areyouavipmember>h4 {
+	background-position: 0 -658px;
+}
+
+.medium-widget.returnguarantee>h4 {
+	background-position: 0 -768px;
+}
+
+.medium-widget.doyouhaveapromocode>h4 {
+	background-position: 0 -711px;
+}
+
+.medium-widget.paymentmethods>h4 {
+	background-position: 0 -825px;
+}
+
+.medium-widget.customer-service>h4 {
+	background-position: 0 -2308px;
+}
+
+.medium-widget.wishlist-faq>h4 {
+	background:
+		url(https://a248.e.akamai.net/cache.lego.com/images/shop/shop11/Common/Icons/icons-sprite-lowres.png)
+		no-repeat 6px -1100px;
+}
+
+.medium-widget a {
+	display: block;
+	font-family: LEGOSemiBold, Arial, Helvetica, Sans-Serif;
+	font-size: 11px;
+	font-size: 0.688rem;
+}
+
+.KR .medium-widget a {
+	font-size: 11px;
+	font-size: 0.688rem;
+}
+
+.medium-widget p+a,.medium-widget label+a {
+	padding: 6px 0 0;
+}
+
+.medium-widget>h4>span,.medium-widget>h4>a {
+	color: #3b3b3b;
+	display: block;
+	font-family: LEGOStdBold, Arial, Helvetica, Sans-Serif;
+	font-size: 15px;
+	font-size: 0.938rem;
+	position: relative;
+	width: 116px;
+	text-transform: uppercase;
+	padding: 3px 0 3px 50px;
+}
+
+.KR .medium-widget>h4>span,.KR .medium-widget>h4>a {
+	font-size: 16px;
+	font-size: 1rem;
+}
+
+.medium-widget>h4>a {
+	color: #3b3b3b;
+}
+
+.medium-widget>h4>span>span,.medium-widget>h4>span>em,.medium-widget>h4>a>span,.medium-widget>h4>a>em
+	{
+	font-family: LEGOSemiBold, Arial, Helvetica, Sans-Serif;
+	font-size: 11px;
+	font-size: 0.688rem;
+	font-style: italic;
+	display: block;
+}
+
+.KR .medium-widget>h4>span>span,.KR .medium-widget>h4>span>em,.KR .medium-widget>h4>a>span,.KR .medium-widget>h4>a>em
+	{
+	font-size: 12px;
+	font-size: 0.75rem;
+}
+
+.medium-widget a.learnmore {
+	padding-top: 7px;
+}
+
+.medium-widget>p {
+	font-family: LEGOStdNormal, Arial, Helvetica, Sans-Serif;
+	font-size: 10px;
+	font-size: 0.625rem;
+	padding-top: 8px;
+}
+
+.KR .medium-widget>p {
+	font-size: 10px;
+	font-size: 0.625rem;
+	color: #3b3b3b;
+}
+
+.medium-widget.areyouavipmember form>label {
+	display: inline-block;
+	font-family: LEGOStdNormal, Arial, Helvetica, Sans-Serif;
+	font-size: 10px;
+	font-size: 0.625rem;
+	margin-top: 8px;
+	position: relative;
+	vertical-align: top;
+	width: 155px;
+}
+
+.KR .medium-widget.areyouavipmember form>label {
+	font-size: 10px;
+	font-size: 0.625rem;
+}
+
+.medium-widget.areyouavipmember form>input[type='checkbox'] {
+	display: inline-block;
+	margin: 8px 0 0;
+}
+
+.medium-widget.areyouavipmember form>.btn-submit-optin {
+	margin: 15px 0;
+}
+
+.medium-widget>ul {
+	height: 65px;
+	margin-top: 7px;
+}
+
+.paymentmethods>ul {
+	font-size: 0;
+}
+
+.KR .paymentmethods>ul {
+	font-size: 0;
+}
+
+.paymentmethods li {
+	background-image:
+		url("https://a248.e.akamai.net/cache.lego.com/images/shop/shop11/Common/bg-payment-types.png");
+	background-repeat: no-repeat;
+	height: 28px;
+	padding-bottom: 7px;
+	text-indent: -3000px;
+	display: inline-block;
+	font-size: 11px;
+}
+
+.KR .paymentmethods li {
+	font-size: 11px;
+}
+
+.ie7 .paymentmethods li {
+	display: block;
+	float: left;
+}
+
+.paymentmethods li.mastercard {
+	background-position: 0 -48px;
+	width: 50px;
+}
+
+.paymentmethods li.visa {
+	background-position: 0 -96px;
+	width: 50px;
+}
+
+.paymentmethods li.maestro {
+	background-position: 0 0;
+	width: 50px;
+}
+
+.paymentmethods li.solo {
+	background-position: 0 -144px;
+	width: 50px;
+}
+
+.paymentmethods li.switch {
+	background-position: 0 -192px;
+	width: 50px;
+}
+
+.paymentmethods li.mastercardsecurecode {
+	background-position: 0 -240px;
+	width: 50px;
+}
+
+.paymentmethods li.americanexpress {
+	background-position: 0 -288px;
+	width: 50px;
+}
+
+.paymentmethods li.discover {
+	background-position: 0 -336px;
+	width: 76px;
+}
+
+.paymentmethods li.billmelater {
+	background-position: 0 -384px;
+	width: 50px;
+}
+
+.paymentmethods li.rechnung {
+	background-position: 0 -432px;
+	width: 50px;
+}
+
+.paymentmethods li.externalinvoice {
+	background-position: 0 -432px;
+	width: 50px;
+}
+
+.paymentmethods li.invoice {
+	background-position: 0 -480px;
+	width: 50px;
+}
+
+.paymentmethods li.ec {
+	background-position: 0 -528px;
+	width: 50px;
+}
+
+.paymentmethods li.elv {
+	background-position: 0 -528px;
+	width: 50px;
+}
+
+.paymentmethods li.inicis {
+	background-position: 0 -566px;
+	width: 85px;
+}
+
+.medium-widget.doyouhaveapromocode>form {
+	padding-bottom: 27px;
+}
+
+.medium-widget.doyouhaveapromocode>form>label {
+	color: #3b3b3b;
+	display: block;
+	font-family: LEGOStdBold, Arial, Helvetica, Sans-Serif;
+	font-size: 11px;
+	font-size: 0.7rem;
+	padding-top: 10px;
+	text-transform: uppercase;
+}
+
+.KR .medium-widget.doyouhaveapromocode>form>label {
+	font-size: 11px;
+	font-size: 0.688rem;
+}
+
+.medium-widget.doyouhaveapromocode>form>input[type='text'] {
+	left: 0;
+	bottom: 0;
+	width: 150px;
+}
+
+.medium-widget.doyouhaveapromocode>form>.form-error input[type='text'] {
+	background-position: -127px;
+}
+
+.medium-widget.doyouhaveapromocode>form>.btn-submit-promocode {
+	top: -25px;
+	right: -112px;
+}
+
+.de .medium-widget.doyouhaveapromocode>form>.btn-submit-promocode {
+	right: -72px;
+}
+
+.borderradius .de .medium-widget.doyouhaveapromocode>form>.btn-submit-promocode
+	{
+	right: -72px;
+}
+
+.fr .medium-widget.doyouhaveapromocode>form>.btn-submit-promocode {
+	right: -86px;
+}
+
+.borderradius .fr .medium-widget.doyouhaveapromocode>form>.btn-submit-promocode
+	{
+	right: -86px;
+}
+
+.medium-widget.doyouhaveapromocode>form>.btn-edit-promocode {
+	position: relative;
+	top: 15px;
+}
+
+.js .medium-widget.doyouhaveapromocode>form>button.btn-edit-promocode {
+	display: none;
+}
+
+.medium-widget .widget-error {
+	color: #dc0014;
+}
+
+#country-selector {
+	position: absolute;
+	top: 32px;
+	bottom: 0;
+	overflow-x: hidden;
+	overflow-y: auto;
+	width: 100%;
+}
+
+#country-selector>ul {
+	display: inline-block;
+	font-size: 0;
+	margin-left: 27px;
+	vertical-align: top;
+	width: 177px;
+}
+
+#country-selector>ul:first-child {
+	margin-left: 0;
+}
+
+.ie7 #country-selector>ul {
+	zoom: 1;
+	display: inline;
+}
+
+#country-selector ul>li {
+	border-top: 1px solid white;
+	border-bottom: 1px solid #cecece;
+	font-size: 11px;
+	padding: 0;
+	margin: 0;
+	position: relative;
+	font-size: 0;
+}
+
+#country-selector ul>li:first-child {
+	border-top: 0;
+}
+
+#country-selector ul>li.lastchild {
+	border-bottom: 0;
+}
+
+#country-selector ul>li>img {
+	left: 8px;
+	position: absolute;
+	z-index: 12000;
+	top: 11px;
+}
+
+#country-selector ul>li p {
+	padding: 6px 0;
+	text-align: left;
+}
+
+#country-selector ul>li p>button {
+	background: none;
+	border-width: 0;
+	color: #3C5263;
+	cursor: pointer;
+	display: inline-block;
+	font-family: LEGOSemiBold, Arial, Helvetica, Sans-Serif;
+	font-size: 0.7rem;
+	margin: 0;
+	overflow: visible;
+	padding: 2px 0 3px 35px;
+	text-align: left;
+	width: 100%;
+	position: relative;
+	top: 0;
+}
+
+#country-selector ul>li p>button:hover {
+	color: white;
+	-moz-border-radius: 12px;
+	-webkit-border-radius: 12px;
+	border-radius: 12px;
+	-webkit-box-shadow: #bbb 1px 2px 4px;
+	-moz-box-shadow: #bbb 1px 2px 4px;
+	box-shadow: #bbb 1px 2px 4px;
+	background-color: #4a667c;
+	background-image: -webkit-gradient(linear, 0 0, 0 bottom, from(#4a667c),
+		to(#2b3b47));
+	background-image: -webkit-linear-gradient(#4a667c, #2b3b47);
+	background-image: -moz-linear-gradient(#4a667c, #2b3b47);
+	background-image: -ms-linear-gradient(#4a667c, #2b3b47);
+	background-image: -o-linear-gradient(#4a667c, #2b3b47);
+	background-image: linear-gradient(#4a667c, #2b3b47);
+}
+
+.ie7 #country-selector ul>li p>button {
+	width: 0;
+}
+
+.js .revolver>* {
+	display: none;
+	position: absolute;
+}
+
+.js .revolver>:first-child {
+	display: block;
+}
+
+ul.product-badges>li,ul#product-badges>li {
+	display: inline-block;
+	background-color: #2c5164;
+	padding: 1px 6px;
+	margin: 0px 3px 3px 0px;
+	font-size: 9px;
+	color: #fff;
+	font-family: LEGOStdBold, Arial, Helvetica, Sans-Serif;
+	text-transform: uppercase;
+	border-radius: 12px;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+}
+
+.KR ul.product-badges>li,.KR ul#product-badges>li {
+	font-size: 9px;
+}
+
+.ie8 ul.product-badges>li,.ie8 ul#product-badges>li {
+	position: relative;
+}
+
+.ie7 ul.product-badges>li,.ie7 ul#product-badges>li {
+	display: inline;
+}
+
+.product-quick-view>#product-images,.product-quick-view>#product-details
+	{
+	display: inline-block;
+	vertical-align: top;
+	background-color: transparent;
+	border: 0px solid #D7D7D7;
+	-mox-border-radius: 0px;
+	border-radius: 0px;
+	-webkit-border-radius: 0px;
+	-webkit-box-shadow: 0px 0px 0px #D7D7D7;
+	-moz-box-shadow: 0px 0px 0px #D7D7D7;
+	box-shadow: 0px 0px 0px #D7D7D7;
+}
+
+.product-quick-view>#product-images {
+	margin: 0 4px 0 0;
+	padding: 5px 1px 0;
+	width: 350px;
+	border: 0px none;
+	height: 400px;
+	z-index: 100;
+	-mox-border-radius: 0px;
+	border-radius: 0px;
+	-webkit-border-radius: 0px;
+	-webkit-box-shadow: 0px 0px 0px #D7D7D7;
+	-moz-box-shadow: 0px 0px 0px #D7D7D7;
+	box-shadow: 0px 0px 0px #D7D7D7;
+}
+
+.product-quick-view>#product-details {
+	padding: 0;
+	position: relative;
+	width: 330px;
+	behavior: none;
+}
+
+.product-quick-view>#product-images {
+	behavior: none;
+}
+
+.ie7 .product-quick-view>#product-images,.ie7 .product-quick-view>#product-details
+	{
+	zoom: 1;
+	display: inline;
+}
+
+.product-quick-view>#product-images #product-quickview {
+	margin-top: 20px;
+}
+
+.product-quick-view>#product-details>#product-badges {
+	margin: -9px 0px 10px -10px;
+}
+
+.product-quick-view>#product-details>#product-logo {
+	margin: 0px 0px 15px;
+}
+
+.product-quick-view>#product-details>#product-title {
+	font-size: 16px;
+	font-size: 1rem;
+	font-family: LEGOSemiBold, Arial, Helvetica, Sans-Serif;
+	margin: 0px 0px 15px;
+}
+
+.KR .product-quick-view>#product-details>#product-title {
+	font-size: 16px;
+	font-size: 1rem;
+}
+
+.product-quick-view>#product-details>#product-info {
+	font-size: 11px;
+	font-size: 0.688rem;
+	line-height: 0.813rem;
+	margin: 0px 0px 15px;
+}
+
+.KR .product-quick-view>#product-details>#product-info {
+	font-size: 11px;
+	font-size: 0.688rem;
+}
+
+.product-quick-view>#product-details>#product-info>li {
+	display: inline-block;
+	width: 150px;
+	margin-right: 10px;
+	vertical-align: top;
+}
+
+.product-quick-view>#product-details>#product-info>li.availability {
+	width: 300px;
+	margin-right: 0;
+}
+
+.product-quick-view>#product-details>#product-info>li>em {
+	font-family: LEGOSemiBold, Arial, Helvetica, Sans-Serif;
+}
+
+.product-quick-view>#product-details>#product-description {
+	font-size: 10px;
+	font-size: 0.625rem;
+	font-family: LEGOSemiBold, Arial, Helvetica, Sans-Serif;
+	line-height: 0.7rem;
+	clear: both;
+	margin: 0px 0px 15px;
+}
+
+.KR .product-quick-view>#product-details>#product-description {
+	font-size: 10px;
+	font-size: 0.625rem;
+}
+
+.product-quick-view>#product-details>.product-price {
+	display: inline-block;
+	margin-bottom: 10px;
+}
+
+.ie7 .product-quick-view>#product-details>.product-price {
+	display: inline;
+}
+
+.product-quick-view>#product-details>.product-price>em {
+	position: relative;
+	top: 2px;
+	font-size: 15px;
+	font-size: 0.938rem;
+	font-family: LEGOSemiBold, Arial, Helvetica, Sans-Serif;
+}
+
+.KR .product-quick-view>#product-details>.product-price>em {
+	font-size: 15px;
+	font-size: 0.938rem;
+}
+
+.product-quick-view>#product-details>.product-price.on-sale {
+	display: inline-block;
+	margin: 0px -5px 5px;
+	text-decoration: line-through;
+	padding: 0px 5px;
+}
+
+.product-quick-view>#product-details>.product-sale-price {
+	margin: 0px 0px 20px;
+}
+
+.product-quick-view>#product-details>.product-sale-price>em {
+	position: relative;
+	top: 2px;
+	font-size: 15px;
+	font-size: 0.938rem;
+	font-family: LEGOSemiBold, Arial, Helvetica, Sans-Serif;
+	color: #f88600;
+}
+
+.KR .product-quick-view>#product-details>.product-sale-price>em {
+	font-size: 15px;
+	font-size: 0.938rem;
+}
+
+.product-quick-view>#product-details>#add-product>#product-qty-label {
+	font-size: 11px;
+	font-size: 0.7rem;
+	font-family: LEGOSemiBold, Arial, Helvetica, Sans-Serif;
+}
+
+.KR .product-quick-view>#product-details>#add-product>#product-qty-label
+	{
+	font-size: 11px;
+	font-size: 0.7rem;
+}
+
+.product-quick-view>#product-details>#add-product>#product-qty {
+	font-size: 10px;
+	font-size: 0.625rem;
+	font-family: LEGOStdBold, Arial, Helvetica, Sans-Serif;
+	padding: 5px 10px;
+	margin: 0px 0px 15px;
+}
+
+.KR .product-quick-view>#product-details>#add-product>#product-qty {
+	font-size: 10px;
+	font-size: 0.625rem;
+}
+
+.product-quick-view>#product-details input {
+	font-family: LEGOStdBold, Arial, Helvetica, Sans-Serif;
+	text-transform: uppercase;
+	display: block;
+	margin: 0px 0px 15px;
+}
+
+.product-quick-view>#product-details .add-to-cart {
+	display: block;
+	margin-bottom: 15px;
+}
+
+.product-quick-view>#product-details #product-quantity {
+	display: block;
+	margin-bottom: 15px;
+}
+
+.product-quick-view>#product-details>hr {
+	height: 2px;
+	border-style: solid;
+	border-width: 1px 0px;
+	border-top-color: #cecece;
+	border-bottom-color: #fff;
+	margin: 20px 0;
+}
+
+.product-quick-view>#product-details>#product-badges,.product-quick-view>#product-details>#tags-list,.product-quick-view>#product-details>#tags-list+hr,.product-quick-view>#product-details>.social-links
+	{
+	display: none;
+}
+
+.social-links-product {
+	font-size: 11px
+}
+
+.KR .social-links-product {
+	font-size: 11px
+}
+
+.product-quick-view .product-rating,.product-quick-view .product-rating-value
+	{
+	width: 67px;
+	height: 20px;
+	background:
+		url(https://a248.e.akamai.net/cache.lego.com/images/shop/shop11/Common/reviews-bricks.png);
+}
+
+.product-quick-view .product-rating {
+	display: inline-block;
+	margin: 0 10px 10px 0;
+}
+
+.ie7 .product-quick-view .product-rating {
+	display: inline;
+	zoom: 1;
+}
+
+.product-quick-view .product-rating+a {
+	display: inline-block;
+	position: relative;
+	top: 2px;
+	vertical-align: top;
+}
+
+.ie7 .product-quick-view .product-rating+a {
+	display: inline;
+	zoom: 1;
+}
+
+.product-quick-view .product-rating-value {
+	background-position: left -20px;
+}
+
+#product-zoomview {
+	position: relative;
+	z-index: 500;
+}
+
+#product-videoview {
+	margin: 5px 25px;
+}
+
+#tags-list {
+	margin: -10px 0;
+}
+
+#tags-list>#tags-label {
+	font-size: 11px;
+	font-size: 0.688rem;
+	font-family: LEGOSemiBold, Arial, Helvetica, Sans-Serif;
+	display: block;
+	height: 100%;
+}
+
+.KR #tags-list>#tags-label {
+	font-size: 11px;
+	font-size: 0.688rem;
+}
+
+#tags-list>dd>#tags {
+	margin-top: -12px;
+	margin-left: 40px;
+}
+
+#tags-list>dd>#tags>li {
+	display: inline-block;
+}
+
+#tags-list>dd>#tags>li>a {
+	display: inline-block;
+	font-family: LEGOStdBold, Arial, Helvetica, Sans-Serif;
+	font-size: 9px;
+	font-size: 0.563rem;
+	text-transform: uppercase;
+	white-space: nowrap;
+	color: #3b3b3b;
+	background-color: #efefef;
+	border: 1px solid #ddd;
+	padding: 2px 7px;
+	margin: 0px 5px 5px 0px;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+}
+
+.KR #tags-list>dd>#tags>li>a {
+	font-size: 9px;
+	font-size: 0.563rem;
+}
+
+#tags-list>dd>#tags>li>a:hover {
+	text-decoration: none;
+	background: #3b3b3b;
+	border-color: #3b3b3b;
+	color: #efefef;
+}
+
+.word-wrap {
+	word-wrap: break-word;
+}
+
+li.product-thumbnail {
+	background:
+		url("https://a248.e.akamai.net/cache.lego.com/images/shop/shop11/Common/bg-product-thumb.png")
+		repeat scroll -188px -2px;
+	display: inline-block;
+	font-family: LEGOStdNormal, Arial, Helvetica, Sans-Serif;
+	font-size: 11px;
+	font-size: 0.688rem;
+	height: 267px;
+	margin: 0 0 10px 9px;
+	padding: 12px;
+	position: relative;
+	vertical-align: top;
+	width: 153px;
+}
+
+.ie7 li.product-thumbnail {
+	display: inline;
+}
+
+li.product-thumbnail:hover {
+	background-position: -2px -2px;
+}
+
+li.product-thumbnail>ul#product-badges {
+	left: 5px;
+	position: absolute;
+	right: 5px;
+	top: 8px;
+}
+
+li.product-thumbnail>a.btn-quick-view {
+	position: absolute;
+	right: 8px;
+	top: 8px;
+	visibility: hidden;
+	font-size: 9px;
+	font-size: 0.563rem;
+}
+
+li.product-thumbnail>a.btn-quick-view.hover {
+	visibility: visible;
+}
+
+li.product-thumbnail>img {
+	margin-bottom: 5px;
+	margin-left: -5px;
+}
+
+li.product-thumbnail>h4 {
+	font-family: LEGOSemiBold, Arial, Helvetica, Sans-Serif;
+	font-size: 11px;
+	font-size: 0.688rem;
+	margin-bottom: 5px;
+}
+
+li.product-thumbnail>h4>a {
+	color: #3B3B3B;
+}
+
+li.product-thumbnail>ul {
+	margin-bottom: 5px;
+	width: 100%;
+}
+
+li.product-thumbnail>ul>li {
+	font-size: 11px;
+	font-size: 0.688rem;
+}
+
+.KR li.product-thumbnail>ul>li {
+	font-family: LEGOStdNormal, Arial, Helvetica, Sans-Serif;
+}
+
+li.product-thumbnail>ul>li>em {
+	font-family: LEGOSemiBold, Arial, Helvetica, Sans-Serif;
+	font-size: 11px;
+	font-size: 0.7rem;
+	margin-bottom: 3px;
+}
+
+.KR li.product-thumbnail>ul>li>em {
+	font-family: LEGOStdNormal, Arial, Helvetica, Sans-Serif;
+}
+
+li.product-thumbnail>ul>li.save>em {
+	text-transform: uppercase;
+}
+
+li.product-thumbnail>ul>li.was-price {
+	text-decoration: line-through;
+}
+
+li.product-thumbnail>ul>li.now-price {
+	padding-top: 5px;
+}
+
+li.product-thumbnail>ul>li.percentage-off {
+	color: #cc0000;
+	font-family: LEGOStdBold, Arial, Helvetica, Sans-Serif;
+	font-size: 13px;
+	font-size: 0.813rem;
+	text-transform: uppercase;
+}
+
+li.product-thumbnail>ul>li.now-price>em {
+	color: #f88600;
+}
+
+li.product-thumbnail .thumb-add-to-cart,li.product-thumbnail .thumb-add-to-cart-disabled,li.product-thumbnail .thumb-add-to-cart-multi,li.product-thumbnail .thumb-add-to-cart-recEngine,li.product-thumbnail .add-to-wishlist,li.product-thumbnail .thumb-add-to-wishlist
+	{
+	position: absolute;
+	bottom: 14px;
+	left: 11px;
+}
+
+li.product-thumbnail .product-rating,li.product-thumbnail .product-rating-value
+	{
+	width: 67px;
+	height: 20px;
+	background:
+		url(https://a248.e.akamai.net/cache.lego.com/images/shop/shop11/Common/reviews-bricks.png);
+}
+
+li.product-thumbnail .product-rating {
+	display: inline-block;
+	margin: 0 10px 10px 0;
+}
+
+.ie7 li.product-thumbnail .product-rating {
+	display: inline;
+	zoom: 1;
+}
+
+li.product-thumbnail .product-rating-value {
+	background-position: left -20px;
+}
+
+#recommended-products,#recently-viewed {
+	background-color: #F5F9FD;
+	font-size: 0;
+	margin: 20px 0;
+	padding: 15px 0 15px 5px;
+	width: 945px;
+}
+
+#main #recommended-products,#main #recently-viewed {
+	font-size: 0;
+}
+
+#recommended-products>h2,#recently-viewed>h2 {
+	font-family: LEGOStdBold, Arial, Helvetica, Sans-Serif;
+	font-size: 18px;
+	font-size: 1.125rem;
+	position: relative;
+	text-transform: uppercase;
+	top: -5px;
+	padding: 5px 0 7px 48px;
+	margin-left: 10px;
+}
+
+#recommended-products>h2 {
+	background:
+		url(https://a248.e.akamai.net/cache.lego.com/images/shop/shop11/Common/Icons/icons-sprite-lowres.png)
+		no-repeat 0 0;
+}
+
+#recently-viewed>h2 {
+	background:
+		url(https://a248.e.akamai.net/cache.lego.com/images/shop/shop11/Common/Icons/icons-sprite-lowres.png)
+		no-repeat 0 0;
+}
+
+#recommended-products>h2>em,#recently-viewed>h2>em {
+	display: block;
+	font-family: LEGOSemiBold, Arial, Helvetica, Sans-Serif;
+	font-size: 14px;
+	font-size: 0.875rem;
+	font-style: italic;
+}
+
+.KR #recommended-products>h2>em,.KR #recently-viewed>h2>em {
+	font-size: 16px;
+	font-size: 1.0rem;
+}
+
+.no-borderradius span.top {
+	border-top: 1px solid #d7d7d7;
+}
+
+.no-borderradius span.bottom {
+	background:
+		url(https://a248.e.akamai.net/cache.lego.com/images/shop/shop11/Common/bg-round-bottom-f5f5f5.png)
+		repeat-x;
+}
+
+.no-borderradius span.right {
+	background:
+		url(https://a248.e.akamai.net/cache.lego.com/images/shop/shop11/Common/bg-round-right-f5f5f5.png)
+		repeat-y;
+}
+
+.no-borderradius span.left {
+	border-left: 1px solid #d7d7d7;
+}
+
+.no-borderradius span.top-left {
+	background:
+		url(https://a248.e.akamai.net/cache.lego.com/images/shop/shop11/Common/bg-round-top-left-f5f5f5.png)
+		no-repeat;
+}
+
+.no-borderradius span.top-right {
+	background:
+		url(https://a248.e.akamai.net/cache.lego.com/images/shop/shop11/Common/bg-round-top-right-f5f5f5.png)
+		no-repeat;
+}
+
+.no-borderradius span.bottom-right {
+	background:
+		url(https://a248.e.akamai.net/cache.lego.com/images/shop/shop11/Common/bg-round-bottom-right-f5f5f5.png)
+		no-repeat;
+}
+
+.no-borderradius span.bottom-left {
+	background:
+		url(https://a248.e.akamai.net/cache.lego.com/images/shop/shop11/Common/bg-round-bottom-left-f5f5f5.png)
+		no-repeat;
+}
+
+.paginationFooter {
+	text-align: right;
+	padding-bottom: 10px;
+}
+
+.paginationNumber,.paginationNumberFirst,.paginationNumberLast {
+	display: inline-block;
+	width: 15px;
+	text-align: center
+}
+
+#sort-and-pagination-container {
+	display: inline-block;
+	width: 100%;
+}
+
+#sort-and-pagination-container #sort-options {
+	margin: 0;
+	float: left;
+}
+
+#sort-and-pagination-container #sort-options span,#sort-options span {
+	margin: 0 20px 0 0;
+}
+
+#sort-and-pagination-container #sort-options label,#sort-options label {
+	margin: 0 20px;
+}
+
+#sort-and-pagination-container #paginationTop {
+	float: left;
+	margin: 3px 0 0 0;
+}
+
+#sort-and-pagination-container #paginationTop a.test-page-previous,#paginationBottom a.test-page-previous
+	{
+	margin: 0 10px 0 0;
+}
+
+#sort-and-pagination-container #paginationTop a.test-page-next,#paginationBottom a.test-page-next
+	{
+	margin: 0 0 0 10px;
+}
+
+#sort-and-pagination-container div.f-right {
+	float: right;
+}
+
+#sort-and-pagination-container .paginationFooter {
+	margin: 6px 0 0 0;
+	float: right;
+}
+
+.KR #footer-wrapper-wh>div dl>dd>a#fl10006 {
+	font-family: LEGOStdNormal, Arial, Helvetica, Sans-Serif;
+	color: red;
+}
+
+.borderradius #store-locator-widget,.borderradius #subscribe-widget,.borderradius #email-acquisition,.borderradius #social-media-widget,.borderradius .medium-widget,.borderradius #change-shipping-country,.borderradius #recommended-products,.borderradius #recently-viewed,.borderradius #test-email-Acquisition-nso
+	{
+	border: 1px solid #D7D7D7;
+	-mox-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-webkit-box-shadow: 1px 1px 4px #D7D7D7;
+	-moz-box-shadow: 1px 1px 4px #D7D7D7;
+	box-shadow: 1px 1px 4px #D7D7D7;
+}
+
+.borderradius #vip-small-widget {
+	border: 1px solid #D7D7D7;
+	-mox-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.no-js #vip-small-widget,.no-js #store-locator-widget,.no-js #subscribe-widget,.no-js #email-acquisition,.no-js #social-media-widget,.no-js #external-link-banner,.no-js .medium-widget,.no-js #change-shipping-country,.no-js #recommended-products,.no-js #recently-viewed
+	{
+	border: 1px solid #d7d7d7;
+}
+
+i {
+	font-style: italic;
+}
+
+b {
+	font-weight: bold;
+}
+
+#cart-terms-modal {
+	height: 290px;
+	font-family: LEGOStdNormal, Arial, Helvetica, Sans-Serif;
+}
+
+#cart-terms-modal h4 {
+	font-size: 16px;
+	font-size: 1rem;
+	text-transform: uppercase;
+	padding-bottom: 15px;
+}
+
+#cart-terms-modal .pleaseAcceptMsg {
+	display: block;
+	margin-right: 150px;
+	padding: 5px 0 0 21px;
+}
+
+#cart-terms-modal a.btn-medium {
+	font-size: 11px;
+	font-size: 0.688rem;
+	position: absolute;
+	right: 10px;
+}
+
+#cart-terms-modal div.container {
+	height: 350px;
+}
+
+#cart-terms-modal div.containerROW {
+	height: 275px;
+}
+
+#cart-terms-modal div.terms-container {
+	padding: 5px 10px 5px 5px;
+	height: 120px;
+	border: 1px solid grey;
+	background-color: white;
+	overflow-y: auto;
+	margin-bottom: 5px;
+}
+
+#cart-terms-modal div.terms-container-new {
+	padding: 5px 10px 5px 5px;
+	margin-bottom: 5px;
+}
+
+#cart-terms-modal p.check {
+	padding: 6px 0 20px 0;
+}
+
+.pageFilter {
+	font-size: 11px;
+	font-size: 0.688rem;
+}
+
+#page-filter-pagination {
+	position: relative;
+	padding: 0 0 40px 0;
+}
+
+#page-filter-pagination>div.f-right {
+	float: right;
+}
+
+#page-filter-pagination>ul.pagefilterbreadcrumb {
+	position: absolute;
+	left: 0px;
+}
+
+#page-filter-pagination ul.pagefilterbreadcrumb div.pagefilterContainer ul.pageFilter,#page-filter-pagination ul.pagefilterbreadcrumb ul.pageFilter,ul.pageFilter
+	{
+	font-size: 12.5px !important;
+}
+
+.pagefilterContainer {
+	padding-bottom: 20px;
+	margin-top: 4px;
+}
+
+.billing-display>span {
+	display: block;
+}
+
+button::-moz-focus-inner,input[type=submit]::-moz-focus-inner {
+	border: none;
+	padding: 0;
+	margin: 0;
+}
+
+.btn-big,.btn-medium,.btn-small,.btnHelpTip,.btnHelpTipBottom {
+	border: none;
+	text-align: center;
+	cursor: pointer;
+	font-family: LEGOStdBold, Arial, Helvetica, Sans-Serif;
+	letter-spacing: 0.2pt;
+	text-transform: uppercase;
+	white-space: nowrap;
+	margin: 0;
+	display: inline-block;
+	position: relative;
+	overflow: visible;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	-moz-box-shadow: 1px 1px 3px #999999;
+	-webkit-box-shadow: 1px 1px 3px #999999;
+	box-shadow: 1px 1px 3px #999999;
+}
+
+.cssgradients .btn-big:after,.cssgradients .btn-medium:after,.cssgradients .btn-small:after
+	{
+	content: " >";
+	font-weight: bold;
+}
+
+.no-cssgradients .btn-big,.no-cssgradients .btn-medium,.no-cssgradients .btn-small
+	{
+	background-image:
+		url(https://a248.e.akamai.net/cache.lego.com/images/shop/shop11/Common/Buttons/btns-sprite-all.png);
+	background-repeat: repeat-x;
+}
+
+a.btn-big:visited,a.btn-medium:visited,a.btn-small:visited {
+	color: white;
+}
+
+.btn-big:hover,.btn-medium:hover,.btn-small:hover,.helpTip:hover {
+	text-decoration: none;
+}
+
+.btn-big {
+	font-size: 15px;
+	height: 27px;
+	line-height: 27px;
+	padding: 0 15px 0 15px;
+}
+
+.no-cssgradients .btn-big {
+	padding: 0 25px 0 15px;
+}
+
+.btn-medium {
+	font-size: 10px;
+	height: 22px;
+	line-height: 22px;
+	padding: 0 13px 0 13px;
+}
+
+.no-cssgradients .btn-medium {
+	padding: 0 18px 0 13px;
+}
+
+.btn-small {
+	font-size: 10px;
+	height: 15px;
+	line-height: 15px;
+	padding: 0 8px 0 8px;
+}
+
+.no-cssgradients .btn-small {
+	padding: 0 12px 0 8px;
+}
+
+.cssgradients .btn-big.orange,.cssgradients .btn-medium.orange,.cssgradients .btn-small.orange
+	{
+	color: white;
+	background-color: #fd7221;
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fd7221),
+		to(#cc3300));
+	background-image: -webkit-linear-gradient(top, #fd7221, #cc3300);
+	background-image: -moz-linear-gradient(top, #fd7221, #cc3300);
+	background-image: -ms-linear-gradient(top, #fd7221, #cc3300);
+	background-image: -o-linear-gradient(top, #fd7221, #cc3300);
+	background-image: linear-gradient(#fd7221, #cc3300);
+}
+
+.cssgradients .btn-big.orange:hover,.cssgradients .btn-big.orange.focus,.cssgradients .btn-medium.orange:hover,.cssgradients .btn-medium.orange.focus,.cssgradients .btn-small.orange:hover,.cssgradients .btn-small.orange.focus
+	{
+	color: #f38316;
+}
+
+.no-cssgradients .btn-big.orange {
+	color: white;
+	background-color: #fd7221;
+	background-position: right -8px;
+}
+
+.no-cssgradients .btn-big.orange:hover,.no-cssgradients .btn-big.orange.focus
+	{
+	color: #f38316;
+	background-color: white;
+	background-position: right -42px;
+}
+
+.no-cssgradients .btn-medium.orange {
+	color: white;
+	background-color: #fd7221;
+	background-position: right -83px;
+}
+
+.no-cssgradients .btn-medium.orange:hover,.no-cssgradients .btn-medium.orange.focus
+	{
+	color: #f38316;
+	background-color: white;
+	background-position: right -118px;
+}
+
+.no-cssgradients .btn-small.orange {
+	color: white;
+	background-color: #fd7221;
+	background-position: right -335px;
+}
+
+.no-cssgradients .btn-small.orange:hover,.no-cssgradients .btn-small.orange.focus
+	{
+	color: #f38316;
+	background-color: white;
+	background-position: right -300px;
+}
+
+.cssgradients .btn-medium.blue,.cssgradients .btn-small.blue {
+	color: white;
+	background-color: #4d6a81;
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#4d6a81),
+		to(#2a3a45));
+	background-image: -webkit-linear-gradient(top, #4d6a81, #2a3a45);
+	background-image: -moz-linear-gradient(top, #4d6a81, #2a3a45);
+	background-image: -ms-linear-gradient(top, #4d6a81, #2a3a45);
+	background-image: -o-linear-gradient(top, #4d6a81, #2a3a45);
+	background-image: linear-gradient(#4d6a81, #2a3a45);
+}
+
+.cssgradients .btn-medium.blue:hover,.cssgradients .btn-medium.blue.focus,.cssgradients .btn-small.blue:hover,.cssgradients .btn-small.blue.focus
+	{
+	color: #1b1e1f;
+}
+
+.no-cssgradients .btn-medium.blue {
+	color: white;
+	background-color: #4d6a81;
+	background-position: right -153px;
+}
+
+.no-cssgradients .btn-medium.blue:hover,.no-cssgradients .btn-medium.blue.focus
+	{
+	color: #1b1e1f;
+	background-color: white;
+	background-position: right -188px;
+}
+
+.no-cssgradients .btn-small.blue {
+	color: white;
+	background-color: #4d6a81;
+	background-position: right -265px;
+}
+
+.no-cssgradients .btn-small.blue:hover,.no-cssgradients .btn-small.blue.focus
+	{
+	color: #1b1e1f;
+	background-color: white;
+	background-position: right -230px;
+}
+
+.cssgradients .btn-medium.white,.cssgradients .btn-small.white {
+	color: #293a44;
+	background-color: white;
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(white),
+		to(#e7e7e7));
+	background-image: -webkit-linear-gradient(top, white, #e7e7e7);
+	background-image: -moz-linear-gradient(top, white, #e7e7e7);
+	background-image: -ms-linear-gradient(top, white, #e7e7e7);
+	background-image: -o-linear-gradient(top, white, #e7e7e7);
+	background-image: linear-gradient(#ffffff, #e7e7e7);
+}
+
+.cssgradients .btn-medium.white:hover,.cssgradients .btn-medium.white.focus,.cssgradients .btn-small.white:hover,.cssgradients .btn-small.white.focus
+	{
+	color: white;
+	background-color: #4d6a81;
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#4d6a81),
+		to(#2a3a45));
+	background-image: -webkit-linear-gradient(top, #4d6a81, #2a3a45);
+	background-image: -moz-linear-gradient(top, #4d6a81, #2a3a45);
+	background-image: -ms-linear-gradient(top, #4d6a81, #2a3a45);
+	background-image: -o-linear-gradient(top, #4d6a81, #2a3a45);
+	background-image: linear-gradient(#4d6a81, #2a3a45);
+}
+
+.no-cssgradients .btn-medium.white {
+	color: #293a44;
+	background-color: white;
+	background-position: right -188px;
+}
+
+.no-cssgradients .btn-medium.white:hover,.no-cssgradients .btn-medium.white.focus
+	{
+	color: white;
+	background-color: #4d6a81;
+	background-position: right -153px;
+}
+
+.no-cssgradients .btn-small.white {
+	color: #293a44;
+	background-color: white;
+	background-position: right -230px;
+}
+
+.no-cssgradients .btn-small.white:hover,.no-cssgradients .btn-small.white.focus
+	{
+	color: white;
+	background-color: #4d6a81;
+	background-position: right -265px;
+}
+
+.cssgradients .btn-small.red {
+	color: white;
+	background-color: #dc2729;
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#dc2729),
+		to(#b40c0e));
+	background-image: -webkit-linear-gradient(top, #dc2729, #b40c0e);
+	background-image: -moz-linear-gradient(top, #dc2729, #b40c0e);
+	background-image: -ms-linear-gradient(top, #dc2729, #b40c0e);
+	background-image: -o-linear-gradient(top, #dc2729, #b40c0e);
+	background-image: linear-gradient(#dc2729, #b40c0e);
+}
+
+.no-cssgradients .btn-small.red {
+	color: white;
+	background-color: #dc2729;
+	background-position: right -405px;
+}
+
+.cssgradients .btn-small.red:hover,.cssgradients .btn-small.red.focus {
+	color: #b70c0e;
+}
+
+.no-cssgradients .btn-small.red:hover,.no-cssgradients .btn-small.red.focus
+	{
+	color: #b70c0e;
+	background-color: white;
+	background-position: right -370px;
+}
+
+.cssgradients .btn-medium.dark-red {
+	color: #fbfbfb;
+	background-color: #8b0304;
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ac0406),
+		to(#660203));
+	background-image: -webkit-linear-gradient(top, #ac0406, #660203);
+	background-image: -moz-linear-gradient(top, #ac0406, #660203);
+	background-image: -ms-linear-gradient(top, #ac0406, #660203);
+	background-image: -o-linear-gradient(top, #ac0406, #660203);
+	background-image: linear-gradient(#ac0406, #660203);
+}
+
+.cssgradients .btn-medium.dark-red:hover,.cssgradients .btn-medium.dark-red.focus
+	{
+	color: #8b0304;
+}
+
+.no-cssgradients .btn-medium.dark-red {
+	color: #fbfbfb;
+	background-color: #8b0304;
+	background-position: right -438px;
+}
+
+.no-cssgradients .btn-medium.dark-red:hover,.no-cssgradients .btn-medium.dark-red.focus
+	{
+	color: #8b0304;
+	background-color: #fbfbfb;
+	background-position: right -473px;
+}
+
+.cssgradients .btn-medium.red {
+	color: #fbfbfb;
+	background-color: #d01012;
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#dd1518),
+		to(#ad0b0d));
+	background-image: -webkit-linear-gradient(top, #dd1518, #ad0b0d);
+	background-image: -moz-linear-gradient(top, #dd1518, #ad0b0d);
+	background-image: -ms-linear-gradient(top, #dd1518, #ad0b0d);
+	background-image: -o-linear-gradient(top, #dd1518, #ad0b0d);
+	background-image: linear-gradient(#dd1518, #ad0b0d);
+}
+
+.cssgradients .btn-medium.red:hover,.cssgradients .btn-medium.red.focus
+	{
+	color: #d01012;
+}
+
+.no-cssgradients .btn-medium.red {
+	color: #fbfbfb;
+	background-color: #d01012;
+	background-position: right -514px;
+}
+
+.no-cssgradients .btn-medium.red:hover,.no-cssgradients .btn-medium.red.focus
+	{
+	color: #d01012;
+	background-color: #fbfbfb;
+	background-position: right -548px;
+}
+
+.cssgradients .btn-medium.dark-yellow {
+	color: #fbfbfb;
+	background-color: #f88600;
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#faa800),
+		to(#d76100));
+	background-image: -webkit-linear-gradient(top, #faa800, #d76100);
+	background-image: -moz-linear-gradient(top, #faa800, #d76100);
+	background-image: -ms-linear-gradient(top, #faa800, #d76100);
+	background-image: -o-linear-gradient(top, #faa800, #d76100);
+	background-image: linear-gradient(#faa800, #d76100);
+}
+
+.cssgradients .btn-medium.dark-yellow:hover,.cssgradients .btn-medium.dark-yellow.focus
+	{
+	color: #f88600;
+}
+
+.no-cssgradients .btn-medium.dark-yellow {
+	color: #fbfbfb;
+	background-color: #f88600;
+	background-position: right -588px;
+}
+
+.no-cssgradients .btn-medium.dark-yellow:hover,.no-cssgradients .btn-medium.dark-yellow.focus
+	{
+	color: #f88600;
+	background-color: #fbfbfb;
+	background-position: right -632px;
+}
+
+.cssgradients .btn-medium.yellow {
+	color: #fbfbfb;
+	background-color: #ffcf00;
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ffdd00),
+		to(#deac00));
+	background-image: -webkit-linear-gradient(top, #ffdd00, #deac00);
+	background-image: -moz-linear-gradient(top, #ffdd00, #deac00);
+	background-image: -ms-linear-gradient(top, #ffdd00, #deac00);
+	background-image: -o-linear-gradient(top, #ffdd00, #deac00);
+	background-image: linear-gradient(#ffdd00, #deac00);
+}
+
+.cssgradients .btn-medium.yellow:hover,.cssgradients .btn-medium.yellow.focus
+	{
+	color: #ffcf00;
+}
+
+.no-cssgradients .btn-medium.yellow {
+	color: #fbfbfb;
+	background-color: #ffcf00;
+	background-position: right -664px;
+}
+
+.no-cssgradients .btn-medium.yellow:hover,.no-cssgradients .btn-medium.yellow.focus
+	{
+	color: #ffcf00;
+	background-color: #fbfbfb;
+	background-position: right -699px;
+}
+
+.cssgradients .btn-medium.pale-yellow {
+	color: #3b3b3b;
+	background-color: #ffdd4d;
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ffe766),
+		to(#debb36));
+	background-image: -webkit-linear-gradient(top, #ffe766, #debb36);
+	background-image: -moz-linear-gradient(top, #ffe766, #debb36);
+	background-image: -ms-linear-gradient(top, #ffe766, #debb36);
+	background-image: -o-linear-gradient(top, #ffe766, #debb36);
+	background-image: linear-gradient(#ffe766, #debb36);
+}
+
+.cssgradients .btn-medium.pale-yellow:hover,.cssgradients .btn-medium.pale-yellow.focus
+	{
+	color: #ffdd4d;
+}
+
+.no-cssgradients .btn-medium.pale-yellow {
+	color: #3b3b3b;
+	background-color: #ffdd4d;
+	background-position: right -738px;
+}
+
+.no-cssgradients .btn-medium.pale-yellow:hover,.no-cssgradients .btn-medium.pale-yellow.focus
+	{
+	color: #ffdd4d;
+	background-color: #3b3b3b;
+	background-position: right -774px;
+}
+
+.cssgradients .btn-medium.light-green {
+	color: #fbfbfb;
+	background-color: #a2c300;
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#bcd300),
+		to(#7da000));
+	background-image: -webkit-linear-gradient(top, #bcd300, #7da000);
+	background-image: -moz-linear-gradient(top, #bcd300, #7da000);
+	background-image: -ms-linear-gradient(top, #bcd300, #7da000);
+	background-image: -o-linear-gradient(top, #bcd300, #7da000);
+	background-image: linear-gradient(#bcd300, #7da000);
+}
+
+.cssgradients .btn-medium.light-green:hover,.cssgradients .btn-medium.light-green.focus
+	{
+	color: #a2c300;
+}
+
+.no-cssgradients .btn-medium.light-green {
+	color: #fbfbfb;
+	background-color: #a2c300;
+	background-position: right -813px;
+}
+
+.no-cssgradients .btn-medium.light-green:hover,.no-cssgradients .btn-medium.light-green.focus
+	{
+	color: #a2c300;
+	background-color: #fbfbfb;
+	background-position: right -849px;
+}
+
+.cssgradients .btn-medium.green {
+	color: #fbfbfb;
+	background-color: #009d2f;
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#00b83e),
+		to(#007821));
+	background-image: -webkit-linear-gradient(top, #00b83e, #007821);
+	background-image: -moz-linear-gradient(top, #00b83e, #007821);
+	background-image: -ms-linear-gradient(top, #00b83e, #007821);
+	background-image: -o-linear-gradient(top, #00b83e, #007821);
+	background-image: linear-gradient(#00b83e, #007821);
+}
+
+.cssgradients .btn-medium.green:hover,.cssgradients .btn-medium.green.focus
+	{
+	color: #009d2f;
+}
+
+.no-cssgradients .btn-medium.green {
+	color: #fbfbfb;
+	background-color: #009d2f;
+	background-position: right -889px;
+}
+
+.no-cssgradients .btn-medium.green:hover,.no-cssgradients .btn-medium.green.focus
+	{
+	color: #009d2f;
+	background-color: #fbfbfb;
+	background-position: right -924px;
+}
+
+.cssgradients .btn-medium.bright-blue {
+	color: #fbfbfb;
+	background-color: #0057ab;
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#0072c2),
+		to(#003e87));
+	background-image: -webkit-linear-gradient(top, #0072c2, #003e87);
+	background-image: -moz-linear-gradient(top, #0072c2, #003e87);
+	background-image: -ms-linear-gradient(top, #0072c2, #003e87);
+	background-image: -o-linear-gradient(top, #0072c2, #003e87);
+	background-image: linear-gradient(#0072c2, #003e87);
+}
+
+.cssgradients .btn-medium.bright-blue:hover,.cssgradients .btn-medium.bright-blue.focus
+	{
+	color: #0057ab;
+}
+
+.no-cssgradients .btn-medium.bright-blue {
+	color: #fbfbfb;
+	background-color: #0057ab;
+	background-position: right -965px;
+}
+
+.no-cssgradients .btn-medium.bright-blue:hover,.no-cssgradients .btn-medium.bright-blue.focus
+	{
+	color: #0057ab;
+	background-color: #fbfbfb;
+	background-position: right -999px;
+}
+
+.cssgradients .btn-medium.ight-blue {
+	color: #fbfbfb;
+	background-color: #3e7ebb;
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#89b1d8),
+		to(#195b98));
+	background-image: -webkit-linear-gradient(top, #89b1d8, #195b98);
+	background-image: -moz-linear-gradient(top, #89b1d8, #195b98);
+	background-image: -ms-linear-gradient(top, #89b1d8, #195b98);
+	background-image: -o-linear-gradient(top, #89b1d8, #195b98);
+	background-image: linear-gradient(#89b1d8, #195b98);
+}
+
+.cssgradients .btn-medium.light-blue:hover,.cssgradients .btn-medium.light-bluee.focus
+	{
+	color: #3e7ebb;
+}
+
+.no-cssgradients .btn-medium.ight-blue {
+	color: #fbfbfb;
+	background-color: #3e7ebb;
+	background-position: right -1040px;
+}
+
+.no-cssgradients .btn-medium.light-blue:hover,.no-cssgradients .btn-medium.light-blue.focus
+	{
+	color: #3e7ebb;
+	background-color: #fbfbfb;
+	background-position: right -1074px;
+}
+
+.cssgradients .btn-medium.light-purple {
+	color: #fbfbfb;
+	background-color: #906da4;
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#af8fbd),
+		to(#6b4d80));
+	background-image: -webkit-linear-gradient(top, #af8fbd, #6b4d80);
+	background-image: -moz-linear-gradient(top, #af8fbd, #6b4d80);
+	background-image: -ms-linear-gradient(top, #af8fbd, #6b4d80);
+	background-image: -o-linear-gradient(top, #af8fbd, #6b4d80);
+	background-image: linear-gradient(#af8fbd, #6b4d80);
+}
+
+.cssgradients .btn-medium.light-purple:hover,.cssgradients .btn-medium.light-purple.focus
+	{
+	color: #906da4;
+}
+
+.no-cssgradients .btn-medium.light-purple {
+	color: #fbfbfb;
+	background-color: #906da4;
+	background-position: right -1115px;
+}
+
+.no-cssgradients .btn-medium.light-purple:hover,.no-cssgradients .btn-medium.light-purple.focus
+	{
+	color: #906da4;
+	background-color: #fbfbfb;
+	background-position: right -1149px;
+}
+
+.cssgradients .btn-medium.purple {
+	color: #fbfbfb;
+	background-color: #583681;
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#7447a4),
+		to(#3e265b));
+	background-image: -webkit-linear-gradient(top, #7447a4, #3e265b);
+	background-image: -moz-linear-gradient(top, #7447a4, #3e265b);
+	background-image: -ms-linear-gradient(top, #7447a4, #3e265b);
+	background-image: -o-linear-gradient(top, #7447a4, #3e265b);
+	background-image: linear-gradient(#7447a4, #3e265b);
+}
+
+.cssgradients .btn-medium.purple:hover,.cssgradients .btn-medium.purple.focus
+	{
+	color: #583681;
+}
+
+.no-cssgradients .btn-medium.purple {
+	color: #fbfbfb;
+	background-color: #583681;
+	background-position: right -1190px;
+}
+
+.no-cssgradients .btn-medium.purple:hover,.no-cssgradients .btn-medium.purple.focus
+	{
+	color: #583681;
+	background-color: #fbfbfb;
+	background-position: right -1224px;
+}
+
+.cssgradients .btn-medium.grey {
+	color: #fbfbfb;
+	background-color: #3b3b3b;
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#4d4d4d),
+		to(#2a2a2a));
+	background-image: -webkit-linear-gradient(top, #4d4d4d, #2a2a2a);
+	background-image: -moz-linear-gradient(top, #4d4d4d, #2a2a2a);
+	background-image: -ms-linear-gradient(top, #4d4d4d, #2a2a2a);
+	background-image: -o-linear-gradient(top, #4d4d4d, #2a2a2a);
+	background-image: linear-gradient(#4d4d4d, #2a2a2a);
+}
+
+.cssgradients .btn-medium.grey:hover,.cssgradients .btn-medium.grey.focus
+	{
+	color: #3b3b3b;
+}
+
+.no-cssgradients .btn-medium.grey {
+	color: #fbfbfb;
+	background-color: #3b3b3b;
+	background-position: right -1265px;
+}
+
+.no-cssgradients .btn-medium.grey:hover,.no-cssgradients .btn-medium.grey.focus
+	{
+	color: #3b3b3b;
+	background-color: #fbfbfb;
+	background-position: right -1299px;
+}
+
+.cssgradients .btn-big:hover,.cssgradients .btn-big.focus,.cssgradients .btn-medium:hover,.cssgradients .btn-medium.focus,.cssgradients .btn-small:hover,.cssgradients .btn-small.focus
+	{
+	background-color: #fbfbfb;
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(white),
+		to(#e7e7e7));
+	background-image: -webkit-linear-gradient(top, white, #e7e7e7);
+	background-image: -moz-linear-gradient(top, white, #e7e7e7);
+	background-image: -ms-linear-gradient(top, white, #e7e7e7);
+	background-image: -o-linear-gradient(top, white, #e7e7e7);
+	background-image: linear-gradient(#ffffff, #e7e7e7);
+}
+
+.cssgradients .btn-medium.PaleYellow:hover,.cssgradients .btn-medium.PaleYellow.focus
+	{
+	background-color: #3b3b3b;
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#4d4d4d),
+		to(#2a2a2a));
+	background-image: -webkit-linear-gradient(top, #4d4d4d, #2a2a2a);
+	background-image: -moz-linear-gradient(top, #4d4d4d, #2a2a2a);
+	background-image: -ms-linear-gradient(top, #4d4d4d, #2a2a2a);
+	background-image: -o-linear-gradient(top, #4d4d4d, #2a2a2a);
+	background-image: linear-gradient(#4d4d4d, #2a2a2a);
+}
+
+.cssgradients .btn-big.disabled,.cssgradients .btn-big.disabled:hover,.cssgradients .btn-medium.disabled,.cssgradients .btn-medium.disabled:hover,.cssgradients .btn-small.disabled,.cssgradients .btn-small.disabled:hover
+	{
+	cursor: default;
+	color: #dddddd;
+	background-color: white;
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(white),
+		to(#e7e7e7));
+	background-image: -webkit-linear-gradient(top, white, #e7e7e7);
+	background-image: -moz-linear-gradient(top, white, #e7e7e7);
+	background-image: -ms-linear-gradient(top, white, #e7e7e7);
+	background-image: -o-linear-gradient(top, white, #e7e7e7);
+	background-image: linear-gradient(#ffffff, #e7e7e7);
+}
+
+.no-cssgradients .btn-big.disabled,.no-cssgradients .btn-big.disabled:hover
+	{
+	cursor: default;
+	color: #dddddd;
+	background-color: white;
+	background-position: right -434px;
+}
+
+.no-cssgradients .btn-medium.disabled,.no-cssgradients .btn-medium.disabled:hover
+	{
+	cursor: default;
+	color: #dddddd;
+	background-color: white;
+	background-position: right -472px;
+}
+
+.no-cssgradients .btn-small.disabled,.no-cssgradients .btn-small.disabled:hover
+	{
+	cursor: default;
+	color: #dddddd;
+	background-color: white;
+	background-position: right -511px;
+}
+
+a.btnHelpTip,a.btnHelpTipBottom {
+	border: 1px solid #bbbbbb;
+	text-decoration: none;
+	color: #293a44;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	width: 18px;
+	height: 18px;
+	line-height: 18px;
+	font-size: 10px;
+	background: white;
+	background-image: none;
+}
+
+.no-borderradius a.btnHelpTip,.no-borderradius a.btnHelpTipBottom {
+	border: 0px;
+	text-decoration: none;
+	color: #293a44;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	width: 18px;
+	height: 18px;
+	line-height: 18px;
+	font-size: 10px;
+	background: #f5f5f5;
+	background-image:
+		url(https://a248.e.akamai.net/cache.lego.com/images/shop/shop11/Common/circle-hover.png);
+}
+
+a.btnHelpTip:hover,a.btnHelpTipBottom:hover {
+	color: white;
+	background: #293a44;
+	border-color: #293a44;
+}
+
+.no-borderradius a.btnHelpTip:hover,.no-borderradius a.btnHelpTipBottom:hover
+	{
+	color: white;
+	background: #f5f5f5;
+	background-image:
+		url(https://a248.e.akamai.net/cache.lego.com/images/shop/shop11/Common/circle-hover.png);
+	border-color: #293a44;
+	background-position: left -28px;
+}
+
+.store-locator-button {
+	position: relative;
+	right: -235px;
+	top: -28px
+}
+
+.btn-small-new {
+	border: none;
+	text-align: center;
+	cursor: pointer;
+	font-family: LEGOStdBold, Arial, Helvetica, Sans-Serif;
+	letter-spacing: 0.2pt;
+	text-transform: uppercase;
+	white-space: nowrap;
+	margin: 0;
+	display: inline-block;
+	position: relative;
+	overflow: visible;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	-moz-box-shadow: 1px 1px 3px #999999;
+	-webkit-box-shadow: 1px 1px 3px #999999;
+	box-shadow: 1px 1px 3px #999999;
+}
+
+.btn-small-new {
+	font-size: 10px;
+	height: 15px;
+	line-height: 15px;
+	padding: 0 8px 0 8px;
+}
+
+.cssgradients .btn-small-new:before {
+	content: "< ";
+	font-weight: bold;
+}
+
+.cssgradients .btn-small-new.blue {
+	color: white;
+	background-color: #4d6a81;
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#4d6a81),
+		to(#2a3a45));
+	background-image: -webkit-linear-gradient(top, #4d6a81, #2a3a45);
+	background-image: -moz-linear-gradient(top, #4d6a81, #2a3a45);
+	background-image: -ms-linear-gradient(top, #4d6a81, #2a3a45);
+	background-image: -o-linear-gradient(top, #4d6a81, #2a3a45);
+	background-image: linear-gradient(#4d6a81, #2a3a45);
+}
+
+.cssgradients .btn-small-new.blue:hover,.cssgradients .btn-small-new.blue.focus
+	{
+	color: #1b1e1f;
+}
+
+.cssgradients .btn-small-new:hover,.cssgradients .btn-small-new.focus {
+	background-color: #fbfbfb;
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(white),
+		to(#e7e7e7));
+	background-image: -webkit-linear-gradient(top, white, #e7e7e7);
+	background-image: -moz-linear-gradient(top, white, #e7e7e7);
+	background-image: -ms-linear-gradient(top, white, #e7e7e7);
+	background-image: -o-linear-gradient(top, white, #e7e7e7);
+	background-image: linear-gradient(#ffffff, #e7e7e7);
+}
+
+.btn-small-new:hover {
+	text-decoration: none;
+}
+
+.no-cssgradients .btn-small-new.blue {
+	color: white;
+	background-color: #4d6a81;
+	background-position: right -265px;
+}
+
+.no-cssgradients .btn-small-new {
+	padding: 0 12px 0 8px;
+}
+
+.no-cssgradients .btn-small-new {
+	background-image:
+		url(https://a248.e.akamai.net/cache.lego.com/images/shop/shop11/Common/Buttons/btns-sprite-all.png);
+	background-repeat: repeat-x;
+}
+
+#shopModalDialogContainer {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	z-index: 10000;
+	width: 100%;
+	height: 100%;
+	background-color: #444444;
+	opacity: 0.4;
+	filter: alpha(opacity = 40);
+}
+
+#shopModalDialog {
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	z-index: 11000;
+}
+
+#shopModalDialog .topLeft,#shopModalDialog .topRight,#shopModalDialog .bottomLeft,#shopModalDialog .bottomRight
+	{
+	width: 15px;
+	height: 15px;
+	position: absolute;
+	z-index: 130000;
+}
+
+#shopModalDialog .topLeft {
+	top: 0;
+	left: 0;
+	background:
+		url("https://a248.e.akamai.net/cache.lego.com/images/shop/shop11/Common/modalEdges/corner-top-left.png")
+		no-repeat scroll 0 0 transparent;
+}
+
+#shopModalDialog .topRight {
+	top: 0;
+	right: 0;
+	background:
+		url("https://a248.e.akamai.net/cache.lego.com/images/shop/shop11/Common/modalEdges/corner-top-right.png")
+		no-repeat scroll 0 0 transparent;
+}
+
+#shopModalDialog .bottomLeft {
+	bottom: 0;
+	left: 0;
+	background:
+		url("https://a248.e.akamai.net/cache.lego.com/images/shop/shop11/Common/modalEdges/corner-bottom-left.png")
+		no-repeat scroll 0 0 transparent;
+}
+
+#shopModalDialog .bottomRight {
+	bottom: 0;
+	right: 0;
+	background:
+		url("https://a248.e.akamai.net/cache.lego.com/images/shop/shop11/Common/modalEdges/corner-bottom-right.png")
+		no-repeat scroll 0 0 transparent;
+}
+
+#shopModalDialog .dialogCloseButton {
+	position: absolute;
+	width: 35px;
+	height: 35px;
+	background:
+		url("https://a248.e.akamai.net/cache.lego.com/images/shop/shop11/Common/modalEdges/close-modal-35x35.png")
+		no-repeat scroll 0 0 transparent;
+	top: -15px;
+	right: -15px;
+	z-index: 150000;
+}
+
+#shopModalDialog .leftEdge,#shopModalDialog .rightEdge,#shopModalDialog .topEdge,#shopModalDialog .bottomEdge
+	{
+	position: absolute;
+	z-index: 120000;
+}
+
+#shopModalDialog .leftEdge {
+	left: 0px;
+	width: 3px;
+	top: 15px;
+	bottom: 15px;
+	background:
+		url("https://a248.e.akamai.net/cache.lego.com/images/shop/shop11/Common/modalEdges/outer-glow-left.png")
+		repeat-y;
+}
+
+#shopModalDialog .rightEdge {
+	right: 0;
+	width: 3px;
+	top: 15px;
+	bottom: 15px;
+	background:
+		url("https://a248.e.akamai.net/cache.lego.com/images/shop/shop11/Common/modalEdges/outer-glow-right.png")
+		repeat-y;
+}
+
+#shopModalDialog .topEdge {
+	top: 0;
+	height: 15px;
+	left: 15px;
+	right: 15px;
+	background:
+		url("https://a248.e.akamai.net/cache.lego.com/images/shop/shop11/Common/modalEdges/outer-glow-top.png")
+		repeat-x;
+	background-position: top;
+}
+
+#shopModalDialog .bottomEdge {
+	bottom: 0;
+	height: 15px;
+	left: 15px;
+	left: 15px;
+	right: 15px;
+	background:
+		url("https://a248.e.akamai.net/cache.lego.com/images/shop/shop11/Common/modalEdges/outer-glow-bottom.png")
+		repeat-x;
+	background-position: bottom;
+}
+
+#shopModalDialog .bottomFill {
+	position: absolute;
+	height: 12px;
+	left: 15px;
+	right: 15px;
+	bottom: 3px;
+	background-color: #dfdcd3;
+}
+
+#shopModalDialog .topAndBottom,#shopModalDialog .leftAndRight,#shopModalDialog .shopDialogContent
+	{
+	position: absolute;
+}
+
+#shopModalDialog .topAndBottom {
+	top: 2px;
+	bottom: 2px;
+	left: 15px;
+	right: 15px;
+	background-color: #fcfbf9;
+}
+
+#shopModalDialog .leftAndRight {
+	left: 3px;
+	right: 3px;
+	top: 15px;
+	bottom: 15px;
+	background:
+		url("https://a248.e.akamai.net/cache.lego.com/images/shop/shop11/Common/modalEdges/bg-gradient.png")
+		repeat-x;
+	background-color: #fcfbf9;
+	background-position: bottom;
+}
+
+#shopModalDialog .shopDialogContent {
+	overflow: hidden;
+	z-index: 140000;
+	top: 45px;
+	left: 45px;
+	right: 45px;
+	bottom: 45px;
+}
+
+#shopModalDialog .shopDialogContent iframe.shopDialogiFrame {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+ul#shop-navigation-bar {
+	display: table;
+	width: 100%;
+	margin: 0 auto 0;
+}
+
+ul#shop-navigation-bar>li {
+	display: table-cell;
+	width: 25%;
+	text-align: center;
+	border-left: 1px solid #d7d7d7
+}
+
+ul#shop-navigation-bar>li>* {
+	text-align: left;
+}
+
+ul#shop-navigation-bar>li>div#shopnav-loading {
+	background: #f5f5f5
+		url(https://a248.e.akamai.net/cache.lego.com/images/shop/shop11/Common/ajax-loader.gif)
+		center center no-repeat;
+	height: 200px;
+}
+
+ul#shop-navigation-bar>li.nav-link-default>a {
+	font-family: LEGOSemiBold, Arial, Helvetica, Sans-Serif;
+	font-size: 13px;
+	font-size: 0.8rem;
+	text-transform: uppercase;
+	text-align: center;
+	text-decoration: none;
+	display: block;
+	padding: 0 10px;
+	margin: 16px auto 0;
+	height: 23px;
+	line-height: 22px;
+	display: inline-block;
+	border: 0;
+	cursor: pointer;
+	position: relative;
+	color: #3B3B3B;
+}
+
+.KR ul#shop-navigation-bar>li.nav-link-default>a {
+	font-size: 15px;
+	font-size: 0.938rem;
+	font-family: LEGOStdNormal, Arial, Helvetica, Sans-Serif;
+	color: #0057AB;
+}
+
+ul#shop-navigation-bar>li.nav-link-default>a.hover {
+	background-color: #5a87c1;
+	color: white;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	-webkit-box-shadow: #999999 1px 1px 3px;
+	-moz-box-shadow: #999999 1px 1px 3px;
+	box-shadow: #999999 1px 1px 3px;
+}
+
+.no-cssgradients ul#shop-navigation-bar>li.nav-link-default>a.hover {
+	background-image:
+		url(https://a248.e.akamai.net/cache.lego.com/images/shop/shop11/Common/bg-button-shopnav.png);
+}
+
+.cssgradients ul#shop-navigation-bar>li.nav-link-default>a.hover {
+	background-image:
+		url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzVhODdjMSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjMzJSIgc3RvcC1jb2xvcj0iIzEyNWRhYyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMwMzRjOTEiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background-image: -moz-linear-gradient(top, #5a87c1 0%, #125dac 33%, #034c91 100%);
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #5a87c1),
+		color-stop(33%, #125dac), color-stop(100%, #034c91));
+	background-image: -webkit-linear-gradient(top, #5a87c1 0%, #125dac 33%, #034c91 100%);
+	background-image: -o-linear-gradient(top, #5a87c1 0%, #125dac 33%, #034c91 100%);
+	background-image: -ms-linear-gradient(top, #5a87c1 0%, #125dac 33%, #034c91 100%);
+	background-image: linear-gradient(to bottom, #5a87c1 0%, #125dac 33%, #034c91 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#5a87c1',
+		endColorstr='#034c91', GradientType=0);
+}
+
+.ie9 ul#shop-navigation-bar>li.nav-link-default>a.hover {
+	filter: none;
+}
+
+ul#shop-navigation-bar>li:first-child>a {
+	border-left: 0;
+}
+
+ul#shop-navigation-bar>li.nav-link-default>a>span.nav-arrow {
+	position: absolute;
+	left: 0;
+	background:
+		url(https://a248.e.akamai.net/cache.lego.com/images/shop/shop11/Common/bg-shopnav-pointer.png)
+		no-repeat scroll center -1px transparent;
+	height: 12px;
+	top: 20px;
+	width: 100%;
+	z-index: 1001;
+	display: none;
+}
+
+ul#shop-navigation-bar>li.nav-link-default.hover>a>span.nav-arrow {
+	display: block;
+}
+
+.js #shop-navigation-bar>li>div {
+	display: none;
+	position: absolute;
+	background-color: #f5f5f5;
+	padding: 15px 15px 57px 15px;
+	z-index: 1000;
+	top: 211px;
+	overflow: hidden;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	border-left: 1px solid #D7D7D7;
+	border-right: 1px solid #D7D7D7;
+	border-bottom: 1px solid #D7D7D7;
+	border-top: none;
+	-moz-box-shadow: 1px 1px 4px #D7D7D7;
+	-webkit-box-shadow: 1px 1px 4px #D7D7D7;
+	box-shadow: 1px 1px 4px #D7D7D7;
+}
+
+.js #shop-navigation-bar>li#shopnav-themes>div {
+	margin-left: -1px;
+}
+
+.js #shop-navigation-bar>li#shopnav-agerange>div {
+	padding-bottom: 15px;
+}
+
+.js #shop-navigation-bar>li#shopnav-salesdeals>div>ul>li {
+	margin: 0 0 0 12px;
+	display: inline-block;
+	white-space: normal;
+}
+
+.js.ie7 #shop-navigation-bar>li#shopnav-salesdeals>div>ul>li {
+	zoom: 1;
+	display: inline;
+}
+
+.js #shop-navigation-bar>li#shopnav-salesdeals>div>ul>li.last {
+	margin-right: 12px;
+}
+
+.js #shop-navigation-bar>li#shopnav-salesdeals>div {
+	padding-left: 0;
+	padding-right: 0;
+	white-space: nowrap;
+}
+
+.js #shop-navigation-bar>li>div .btn-seeall {
+	position: absolute;
+	bottom: 20px;
+	right: 18px;
+	font-family: LEGOSemiBold, Arial, Helvetica, Sans-Serif;
+}
+
+.js #shop-navigation-bar #shopnav-salesdeals>a {
+	color: #d01012;
+}
+
+.js #shop-navigation-bar #shopnav-salesdeals.hover>a {
+	color: #ffffff;
+}
+
+.js #shop-navigation-bar>li>div.shop-navigation-1>ul.secondary-list {
+	padding-right: 15px;
+	padding-left: 15px;
+	border-left: 1px solid #D7D7D7;
+	display: inline-block;
+	vertical-align: top;
+	white-space: nowrap;
+}
+
+.js #shop-navigation-bar>li>div.shop-navigation-1>ul.secondary-list.first
+	{
+	border-left: none;
+	padding-left: 0;
+}
+
+.js #shop-navigation-bar>li>div.shop-navigation-1>ul.secondary-list.last
+	{
+	padding-right: 0;
+}
+
+.js #shop-navigation-bar>li>div.shop-navigation-1>ul.secondary-list>li {
+	vertical-align: top;
+	margin-bottom: 10px;
+}
+
+.js #shop-navigation-bar>li>div.shop-navigation-4>ul {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.ie7 .js #shop-navigation-bar>li>div.shop-navigation-4>ul,.ie8 .js #shop-navigation-bar>li>div.shop-navigation-4>ul
+	{
+	display: inline;
+	zoom: 1;
+}
+
+#just-added,#minibag {
+	display: none;
+}
+
+ul#shop-navigation-bar>li#shopnav-minibag {
+	vertical-align: top;
+	width: 180px;
+	background-image:
+		url(https://a248.e.akamai.net/cache.lego.com/images/shop/shop11/Common/bg-shopnav-minibag.png);
+	background-position: 173px 0;
+	background-repeat: no-repeat;
+}
+
+ul#shop-navigation-bar>li#shopnav-minibag>a:first-child,ul#shop-navigation-bar>li#shopnav-minibag>span:first-child
+	{
+	margin: 0;
+	width: 130px;
+	display: inline-block;
+	color: #ff9900;
+	background-image:
+		url(https://a248.e.akamai.net/cache.lego.com/images/shop/shop11/Common/bg-shopnav-minibag.png);
+	background-position: -6px 0;
+	background-repeat: no-repeat;
+	border: 0;
+	text-align: center;
+	position: relative;
+	z-index: 510;
+	text-transform: uppercase;
+}
+
+ul#shop-navigation-bar>li#shopnav-minibag>a:first-child {
+	padding: 11px 0 0 48px;
+	font-family: LEGOStdBold, Arial, Helvetica, Sans-Serif;
+	font-size: 10px;
+	font-size: 0.625rem;
+	text-decoration: none;
+	height: 40px;
+}
+
+.KR ul#shop-navigation-bar>li#shopnav-minibag>a:first-child {
+	font-size: 10px;
+	font-size: 0.625rem;
+}
+
+ul#shop-navigation-bar>li#shopnav-minibag>span:first-child {
+	font-family: LEGOSemiBold, Arial, Helvetica, Sans-Serif;
+	font-size: 11px;
+	font-size: 0.7rem;
+	background-image:
+		url(https://a248.e.akamai.net/cache.lego.com/images/shop/shop11/Common/bg-shopnav-minibag.png);
+	height: 54px;
+	line-height: 54px;
+	padding-left: 48px;
+}
+
+.KR ul#shop-navigation-bar>li#shopnav-minibag>span:first-child {
+	font-size: 11px;
+	font-size: 0.7rem;
+}
+
+.js ul#shop-navigation-bar>li#shopnav-minibag>a.btn-checkout {
+	position: relative;
+	right: -24px;
+	top: -25px;
+	z-index: 520;
+}
+
+.js #shop-navigation-bar>li#shopnav-minibag.hover>a:first-child {
+	background-position: -256px 0;
+}
+
+.js #shop-navigation-bar>li#shopnav-minibag div.miniBagEmpty {
+	padding: 10px;
+}
+
+.js #shop-navigation-bar>li#shopnav-minibag div.miniBagEmpty>h3 {
+	font-family: LEGOStdBold, Arial, Helvetica, Sans-Serif;
+	margin-bottom: 15px;
+}
+
+.js #shop-navigation-bar>li#shopnav-minibag>.minibag-modal,.js #shop-navigation-bar>li#shopnav-minibag>#shopnav-loading
+	{
+	padding: 0 15px 15px 15px;
+	background-color: #f5f5f5;
+	width: 271px;
+	position: absolute;
+	z-index: 500;
+	font-size: 11px;
+	max-height: none;
+	-webkit-border-radius: 5px 0 5px 5px;
+	-moz-border-radius: 5px 0 5px 5px;
+	border-radius: 5px 0 5px 5px;
+	display: none;
+}
+
+.js #shop-navigation-bar>li#shopnav-minibag>.minibag-modal.floater,.js #shop-navigation-bar>li#shopnav-minibag>#shopnav-loading.floater
+	{
+	position: fixed;
+	top: 1px;
+}
+
+.js #shop-navigation-bar .minibag-modal em {
+	font-family: LEGOSemiBold, Arial, Helvetica, Sans-Serif;
+}
+
+.js #shop-navigation-bar .minibag-modal>h3 {
+	font-family: LEGOSemiBold, Arial, Helvetica, Sans-Serif;
+	font-size: 16px;
+	font-size: 1rem;
+	margin: 0 0 15px 0;
+}
+
+.js #shop-navigation-bar .minibag-modal>ul.minibag-items {
+	max-height: 275px;
+	overflow-x: hidden;
+	overflow-y: auto;
+	margin-right: -13px;
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+.js #shop-navigation-bar .minibag-modal>ul>li>a>img {
+	max-width: 80px;
+	max-height: 60px;
+	display: inline-block;
+}
+
+.js #shop-navigation-bar .minibag-modal>ul>li>hr {
+	margin: 12px 15px 12px -15px;
+	position: relative;
+}
+
+.js #shop-navigation-bar .minibag-modal>ul>li>dl {
+	display: inline-block;
+	width: 168px;
+	vertical-align: top;
+	margin-left: 15px;
+}
+
+.js #shop-navigation-bar .minibag-modal>ul>li>dl>dt {
+	padding-right: 10px;
+}
+
+.js #shop-navigation-bar .minibag-modal>ul>li>dl>dd {
+	font-family: LEGOSemiBold, Arial, Helvetica, Sans-Serif;
+}
+
+.js #shop-navigation-bar .minibag-modal>ul>li>dl>dd.description-value {
+	margin-bottom: 10px;
+	width: 100%;
+}
+
+.js #shop-navigation-bar .minibag-modal>ul>li>dl>dt.description-label,.js #shop-navigation-bar .minibag-modal>ul>li>dl>dt.availability-label
+	{
+	position: absolute;
+	top: 0;
+	left: -9999px
+}
+
+.js #shop-navigation-bar .minibag-modal>ul>li>dl>dd.availability-value {
+	width: 100%;
+	font-family: LEGOStdNormal, Arial, Helvetica, Sans-Serif;
+}
+
+.js #shop-navigation-bar .minibag-modal>ul>li>dl>dd.availability-future
+	{
+	color: #E57300;
+}
+
+.js #shop-navigation-bar .minibag-modal>ul>li>dl>dd.availability-questionable
+	{
+	color: #333;
+}
+
+.js #shop-navigation-bar .minibag-modal>ul>li>dl>dd.availability-now {
+	color: #278F00;
+}
+
+.js #shop-navigation-bar .minibag-modal>ul>li>dl>dd.product-price.on-sale
+	{
+	text-decoration: line-through;
+}
+
+.js #shop-navigation-bar .minibag-modal>ul>li>dl>dd.product-sale-price {
+	color: #F88600;
+}
+
+.js #shop-navigation-bar .minibag-modal>ul>li>dl>dd>a {
+	color: #3B3B3B;
+}
+
+.js #shop-navigation-bar .minibag-modal>ul>li>dl>* {
+	display: inline-block;
+}
+
+.js #shop-navigation-bar .minibag-modal>ul>li>dl>dd {
+	width: 60%
+}
+
+.js #shop-navigation-bar .minibag-modal>ul>li>dl>dt {
+	width: 30%
+}
+
+.js #shop-navigation-bar .minibag-modal>p.order-subtotal {
+	font-family: LEGOSemiBold, Arial, Helvetica, Sans-Serif;
+	font-size: 13px;
+}
+
+.js #shop-navigation-bar .minibag-modal>p.estimated-shipping {
+	margin-bottom: 0;
+	font-family: LEGOSemiBold, Arial, Helvetica, Sans-Serif;
+}
+
+.js #shop-navigation-bar .minibag-modal>p {
+	margin: 0 0 10px 0;
+}
+
+#just-added h3 {
+	padding: 10px 0 0 0;
+}
+
+.js #shop-navigation-bar .minibag-modal>span.promotion {
+	margin: 0 -15px 10px -15px;
+	padding: 10px 0 10px 15px;
+	position: relative;
+	border-bottom: 1px solid #cecece;
+	display: block;
+	background-color: #f5f5f5;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#f5f5f5),
+		to(#e5e5e5));
+	background-image: -webkit-linear-gradient(top, #f5f5f5, #e5e5e5);
+	background-image: -moz-linear-gradient(top, #f5f5f5, #e5e5e5);
+	background-image: -ms-linear-gradient(top, #f5f5f5, #e5e5e5);
+	background-image: -o-linear-gradient(top, #f5f5f5, #e5e5e5);
+	background-image: linear-gradient(#f5f5f5, #e5e5e5);
+}
+
+.ie7 #shop-navigation-bar .minibag-modal>span.promotion {
+	height: 100%;
+}
+
+.js #shop-navigation-bar>li#shopnav-minibag .btn-minibag-checkout {
+	float: right;
+}
+
+.ie7 ul#shop-navigation-bar>li,.ie7 ul#shop-navigation-bar>li>a,.js.ie7 ul#shop-navigation-bar>li>div.shop-navigation-1>ul.primary-list>li,.js.ie7 ul#shop-navigation-bar>li>div.shop-navigation-2>ul.primary-list>li,.js.ie7 ul#shop-navigation-bar>li>div.shop-navigation-3>ul.primary-list>li,.js.ie7 ul#shop-navigation-bar>li>div.shop-navigation-4>ul.product-list>li,.js.ie7 ul#shop-navigation-bar>li>div.shop-navigation-4>ul.tout-list>li,.js.ie7 ul#shop-navigation-bar>li>div.shop-navigation-1>ul.secondary-list,.js.ie7 ul#shop-navigation-bar>li>div.shop-navigation-4>ul#tout-list>li,.js.ie7 ul#shop-navigation-bar>li>div.shop-navigation-4>ul#product-list>li,.js.ie7 ul#shop-navigation-bar>li>div.shop-navigation-4>ul
+	{
+	display: inline;
+	zoom: 1;
+}
+
+ul#shop-navigation-bar,.js ul#shop-navigation-bar>li>div.shop-navigation-1>ul,.js ul#shop-navigation-bar>li>div.shop-navigation-2>ul,.js ul#shop-navigation-bar>li>div.shop-navigation-4,.js.ie7 #shop-navigation-bar>li>div.shop-navigation-1
+	{
+	font-size: 0;
+}
+
+ul#shop-navigation-bar>*,.js ul#shop-navigation-bar>li>div.shop-navigation-1>ul *,.js ul#shop-navigation-bar>li>div.shop-navigation-2>ul *
+	{
+	font-size: 11px;
+	font-size: 0.7rem;
+}
+
+.KR ul#shop-navigation-bar>*,.js .KR ul#shop-navigation-bar>li>div.shop-navigation-1>ul *,.js .KR ul#shop-navigation-bar>li>div.shop-navigation-2>ul *
+	{
+	font-family: LEGOSemiBold, Arial, Helvetica, Sans-Serif;
+	font-size: 10px;
+	font-size: 0.625rem;
+}
+
+.btnHelpTip,.btnHelpTipBottom {
+	cursor: help;
+}
+
+.helpTip {
+	position: absolute;
+	width: 240px;
+	font-size: 10px;
+	z-index: 12000;
+	display: none;
+}
+
+.helpTip .helpTipTop,.helpTip .helpTipTopArrow {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 240px;
+	height: 20px;
+	background:
+		url("https://a248.e.akamai.net/cache.lego.com/images/shop/shop11/Common/helpTipEdges/tooltip-top.png")
+		no-repeat scroll 0 0 transparent;
+}
+
+.helpTip .helpTipTopArrow {
+	background: url("/images/helpTipEdges/tooltip-arrow-top.png") no-repeat
+		scroll 0 0 transparent;
+}
+
+.helpTip .helpTipCloser {
+	position: absolute;
+	top: -15px;
+	left: 220px;
+	width: 35px;
+	height: 35px;
+	background:
+		url("https://a248.e.akamai.net/cache.lego.com/images/shop/shop11/Common/helpTipEdges/close-modal-35x35.png")
+		no-repeat scroll 0 0 transparent;
+	z-index: 15000;
+	cursor: pointer;
+}
+
+.helpTip .helpTipBottom,.helpTip .helpTipBottomNoArrow {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 240px;
+	height: 25px;
+	background:
+		url("https://a248.e.akamai.net/cache.lego.com/images/shop/shop11/Common/helpTipEdges/tooltip-bottom.png")
+		no-repeat scroll 0 0 transparent;
+}
+
+.helpTip .helpTipBottomNoArrow {
+	background: url("/images/helpTipEdges/tooltip-noarrow-bottom.png")
+		no-repeat scroll 0 0 transparent;
+}
+
+.helpTip .helpTipMiddle,.helpTip .helpTipMiddle_b {
+	position: absolute;
+	top: 10px;
+	left: 0;
+	width: 240px;
+	background:
+		url("https://a248.e.akamai.net/cache.lego.com/images/shop/shop11/Common/helpTipEdges/tooltip-middle.png")
+		repeat-y scroll 0 0 transparent;
+}
+
+.helpTip .helpTipMiddle_b {
+	background: url("/images/helpTipEdges/tooltip-middle_b.png") repeat-y
+		scroll 0 0 transparent;
+	top: 18px;
+}
+
+.helpTipContent,.helpTipContent_b {
+	margin-top: 10px;
+	margin-left: 12px;
+	margin-right: 15px;
+	margin-bottom: 25px;
+	position: relative;
+	z-index: 13000;
+}
+
+.helpTipContent_b {
+	margin-top: 20px;
+}
+
+.helpTipContent h1 {
+	font-weight: bold;
+}
+
+#wishlist-modal {
+	background-image:
+		url(https://a248.e.akamai.net/cache.lego.com/images/shop/shop11/Common/Icons/minifig-wishlist.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	height: 360px;
+	padding-left: 240px;
+	font-family: LEGOStdNormal, Arial, Helvetica, Sans-Serif;
+}
+
+#wishlist-modal h4 {
+	color: #3b3b3b;
+	font-size: 16px;
+	font-size: 1rem;
+	text-transform: uppercase;
+	font-style: italic;
+	padding-bottom: 15px;
+}
+
+#wishlist-modal h4>em {
+	font-family: LEGOStdBold, Arial, Helvetica, Sans-Serif;
+	font-size: 24px;
+	font-size: 1.5rem;
+	display: block;
+	font-style: normal;
+}
+
+#wishlist-modal>div.first,#wishlist-modal>div.second {
+	font-family: LEGOStdBold, Arial, Helvetica, Sans-Serif;
+	font-size: 11px;
+	font-size: 0.7rem;
+	color: #55575b;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	padding-right: 15px;
+	vertical-align: top
+}
+
+#wishlist-modal>div.second {
+	font-family: LEGOStdNormal, Arial, Helvetica, Sans-Serif;
+}
+
+#wishlist-modal a.btn-medium {
+	float: right;
+	font-size: 11px;
+	font-size: 0.688rem;
+	margin-top: 20px;
+	margin-bottom: 15px;
+}
+
+#wishlist-modal hr {
+	clear: both;
+	margin-top: 10px;
+}
+
+#wishlist-modal>div.second div {
+	clear: both;
+}
+
+.ui-helper-hidden {
+	display: none;
+}
+
+.ui-helper-hidden-accessible {
+	position: absolute !important;
+	clip: rect(1px, 1px, 1px, 1px);
+	clip: rect(1px, 1px, 1px, 1px);
+}
+
+.ui-helper-reset {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	line-height: 1.3;
+	text-decoration: none;
+	font-size: 100%;
+	list-style: none;
+}
+
+.ui-helper-clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+.ui-helper-clearfix {
+	display: inline-block;
+}
+
+* html .ui-helper-clearfix {
+	height: 1%;
+}
+
+.ui-helper-clearfix {
+	display: block;
+}
+
+.ui-helper-zfix {
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	position: absolute;
+	opacity: 0;
+	filter: Alpha(Opacity = 0);
+}
+
+.ui-state-disabled {
+	cursor: default !important;
+}
+
+.ui-icon {
+	display: block;
+	text-indent: -99999px;
+	overflow: hidden;
+	background-repeat: no-repeat;
+}
+
+.ui-widget-overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.ui-widget {
+	font-family: Trebuchet MS, Tahoma, Verdana, Arial, sans-serif;
+	font-size: 1.1em;
+}
+
+.ui-widget .ui-widget {
+	font-size: 1em;
+}
+
+.ui-widget input,.ui-widget select,.ui-widget textarea,.ui-widget button
+	{
+	font-family: Trebuchet MS, Tahoma, Verdana, Arial, sans-serif;
+	font-size: 1em;
+}
+
+.ui-widget-content {
+	border: 1px solid #dddddd;
+	background: #eeeeee
+		url(/js/lib/jquery-ui/css/ui-lego/images/ui-bg_highlight-soft_100_eeeeee_1x100.png)
+		50% top repeat-x;
+	color: #333333;
+}
+
+.ui-widget-content a {
+	color: #333333;
+}
+
+.ui-widget-header {
+	border: 1px solid #e78f08;
+	background: #3c5263
+		url(/js/lib/jquery-ui/css/ui-lego/images/ui-bg_gloss-wave_35_3c5263_500x100.jpg)
+		50% 50% repeat-x;
+	color: #ffffff;
+	font-weight: bold;
+}
+
+.ui-widget-header a {
+	color: #ffffff;
+}
+
+.ui-state-default,.ui-widget-content .ui-state-default,.ui-widget-header .ui-state-default
+	{
+	border: 1px solid #cccccc;
+	background: #f6f6f6
+		url(/js/lib/jquery-ui/css/ui-lego/images/ui-bg_glass_100_f6f6f6_1x400.png)
+		50% 50% repeat-x;
+	font-weight: bold;
+	color: #1c94c4;
+}
+
+.ui-state-default a,.ui-state-default a:link,.ui-state-default a:visited
+	{
+	color: #1c94c4;
+	text-decoration: none;
+}
+
+.ui-state-hover,.ui-widget-content .ui-state-hover,.ui-widget-header .ui-state-hover,.ui-state-focus,.ui-widget-content .ui-state-focus,.ui-widget-header .ui-state-focus
+	{
+	border: 1px solid #fbcb09;
+	background: #fdf5ce
+		url(/js/lib/jquery-ui/css/ui-lego/images/ui-bg_glass_100_fdf5ce_1x400.png)
+		50% 50% repeat-x;
+	font-weight: bold;
+	color: #c77405;
+}
+
+.ui-state-hover a,.ui-state-hover a:hover {
+	color: #c77405;
+	text-decoration: none;
+}
+
+.ui-state-active,.ui-widget-content .ui-state-active,.ui-widget-header .ui-state-active
+	{
+	border: 1px solid #fbd850;
+	background: #ffffff
+		url(/js/lib/jquery-ui/css/ui-lego/images/ui-bg_glass_65_ffffff_1x400.png)
+		50% 50% repeat-x;
+	font-weight: bold;
+	color: #eb8f00;
+}
+
+.ui-state-active a,.ui-state-active a:link,.ui-state-active a:visited {
+	color: #eb8f00;
+	text-decoration: none;
+}
+
+.ui-widget:active {
+	outline: none;
+}
+
+.ui-state-highlight,.ui-widget-content .ui-state-highlight,.ui-widget-header .ui-state-highlight
+	{
+	border: 1px solid #fed22f;
+	background: #ffe45c
+		url(/js/lib/jquery-ui/css/ui-lego/images/ui-bg_highlight-soft_75_ffe45c_1x100.png)
+		50% top repeat-x;
+	color: #363636;
+}
+
+.ui-state-highlight a,.ui-widget-content .ui-state-highlight a,.ui-widget-header .ui-state-highlight a
+	{
+	color: #363636;
+}
+
+.ui-state-error,.ui-widget-content .ui-state-error,.ui-widget-header .ui-state-error
+	{
+	border: 1px solid #cd0a0a;
+	background: #b81900
+		url(/js/lib/jquery-ui/css/ui-lego/images/ui-bg_diagonals-thick_18_b81900_40x40.png)
+		50% 50% repeat;
+	color: #ffffff;
+}
+
+.ui-state-error a,.ui-widget-content .ui-state-error a,.ui-widget-header .ui-state-error a
+	{
+	color: #ffffff;
+}
+
+.ui-state-error-text,.ui-widget-content .ui-state-error-text,.ui-widget-header .ui-state-error-text
+	{
+	color: #ffffff;
+}
+
+.ui-priority-primary,.ui-widget-content .ui-priority-primary,.ui-widget-header .ui-priority-primary
+	{
+	font-weight: bold;
+}
+
+.ui-priority-secondary,.ui-widget-content .ui-priority-secondary,.ui-widget-header .ui-priority-secondary
+	{
+	opacity: .7;
+	filter: Alpha(Opacity = 70);
+	font-weight: normal;
+}
+
+.ui-state-disabled,.ui-widget-content .ui-state-disabled,.ui-widget-header .ui-state-disabled
+	{
+	opacity: .35;
+	filter: Alpha(Opacity = 35);
+	background-image: none;
+}
+
+.ui-icon {
+	width: 16px;
+	height: 16px;
+	background-image:
+		url(/js/lib/jquery-ui/css/ui-lego/images/ui-icons_222222_256x240.png);
+}
+
+.ui-widget-content .ui-icon {
+	background-image:
+		url(/js/lib/jquery-ui/css/ui-lego/images/ui-icons_222222_256x240.png);
+}
+
+.ui-widget-header .ui-icon {
+	background-image:
+		url(/js/lib/jquery-ui/css/ui-lego/images/ui-icons_ffffff_256x240.png);
+}
+
+.ui-state-default .ui-icon {
+	background-image:
+		url(/js/lib/jquery-ui/css/ui-lego/images/ui-icons_ef8c08_256x240.png);
+}
+
+.ui-state-hover .ui-icon,.ui-state-focus .ui-icon {
+	background-image:
+		url(/js/lib/jquery-ui/css/ui-lego/images/ui-icons_ef8c08_256x240.png);
+}
+
+.ui-state-active .ui-icon {
+	background-image:
+		url(/js/lib/jquery-ui/css/ui-lego/images/ui-icons_ef8c08_256x240.png);
+}
+
+.ui-state-highlight .ui-icon {
+	background-image:
+		url(/js/lib/jquery-ui/css/ui-lego/images/ui-icons_228ef1_256x240.png);
+}
+
+.ui-state-error .ui-icon,.ui-state-error-text .ui-icon {
+	background-image:
+		url(/js/lib/jquery-ui/css/ui-lego/images/ui-icons_ffd27a_256x240.png);
+}
+
+.ui-icon-carat-1-n {
+	background-position: 0 0;
+}
+
+.ui-icon-carat-1-ne {
+	background-position: -16px 0;
+}
+
+.ui-icon-carat-1-e {
+	background-position: -32px 0;
+}
+
+.ui-icon-carat-1-se {
+	background-position: -48px 0;
+}
+
+.ui-icon-carat-1-s {
+	background-position: -64px 0;
+}
+
+.ui-icon-carat-1-sw {
+	background-position: -80px 0;
+}
+
+.ui-icon-carat-1-w {
+	background-position: -96px 0;
+}
+
+.ui-icon-carat-1-nw {
+	background-position: -112px 0;
+}
+
+.ui-icon-carat-2-n-s {
+	background-position: -128px 0;
+}
+
+.ui-icon-carat-2-e-w {
+	background-position: -144px 0;
+}
+
+.ui-icon-triangle-1-n {
+	background-position: 0 -16px;
+}
+
+.ui-icon-triangle-1-ne {
+	background-position: -16px -16px;
+}
+
+.ui-icon-triangle-1-e {
+	background-position: -32px -16px;
+}
+
+.ui-icon-triangle-1-se {
+	background-position: -48px -16px;
+}
+
+.ui-icon-triangle-1-s {
+	background-position: -64px -16px;
+}
+
+.ui-icon-triangle-1-sw {
+	background-position: -80px -16px;
+}
+
+.ui-icon-triangle-1-w {
+	background-position: -96px -16px;
+}
+
+.ui-icon-triangle-1-nw {
+	background-position: -112px -16px;
+}
+
+.ui-icon-triangle-2-n-s {
+	background-position: -128px -16px;
+}
+
+.ui-icon-triangle-2-e-w {
+	background-position: -144px -16px;
+}
+
+.ui-icon-arrow-1-n {
+	background-position: 0 -32px;
+}
+
+.ui-icon-arrow-1-ne {
+	background-position: -16px -32px;
+}
+
+.ui-icon-arrow-1-e {
+	background-position: -32px -32px;
+}
+
+.ui-icon-arrow-1-se {
+	background-position: -48px -32px;
+}
+
+.ui-icon-arrow-1-s {
+	background-position: -64px -32px;
+}
+
+.ui-icon-arrow-1-sw {
+	background-position: -80px -32px;
+}
+
+.ui-icon-arrow-1-w {
+	background-position: -96px -32px;
+}
+
+.ui-icon-arrow-1-nw {
+	background-position: -112px -32px;
+}
+
+.ui-icon-arrow-2-n-s {
+	background-position: -128px -32px;
+}
+
+.ui-icon-arrow-2-ne-sw {
+	background-position: -144px -32px;
+}
+
+.ui-icon-arrow-2-e-w {
+	background-position: -160px -32px;
+}
+
+.ui-icon-arrow-2-se-nw {
+	background-position: -176px -32px;
+}
+
+.ui-icon-arrowstop-1-n {
+	background-position: -192px -32px;
+}
+
+.ui-icon-arrowstop-1-e {
+	background-position: -208px -32px;
+}
+
+.ui-icon-arrowstop-1-s {
+	background-position: -224px -32px;
+}
+
+.ui-icon-arrowstop-1-w {
+	background-position: -240px -32px;
+}
+
+.ui-icon-arrowthick-1-n {
+	background-position: 0 -48px;
+}
+
+.ui-icon-arrowthick-1-ne {
+	background-position: -16px -48px;
+}
+
+.ui-icon-arrowthick-1-e {
+	background-position: -32px -48px;
+}
+
+.ui-icon-arrowthick-1-se {
+	background-position: -48px -48px;
+}
+
+.ui-icon-arrowthick-1-s {
+	background-position: -64px -48px;
+}
+
+.ui-icon-arrowthick-1-sw {
+	background-position: -80px -48px;
+}
+
+.ui-icon-arrowthick-1-w {
+	background-position: -96px -48px;
+}
+
+.ui-icon-arrowthick-1-nw {
+	background-position: -112px -48px;
+}
+
+.ui-icon-arrowthick-2-n-s {
+	background-position: -128px -48px;
+}
+
+.ui-icon-arrowthick-2-ne-sw {
+	background-position: -144px -48px;
+}
+
+.ui-icon-arrowthick-2-e-w {
+	background-position: -160px -48px;
+}
+
+.ui-icon-arrowthick-2-se-nw {
+	background-position: -176px -48px;
+}
+
+.ui-icon-arrowthickstop-1-n {
+	background-position: -192px -48px;
+}
+
+.ui-icon-arrowthickstop-1-e {
+	background-position: -208px -48px;
+}
+
+.ui-icon-arrowthickstop-1-s {
+	background-position: -224px -48px;
+}
+
+.ui-icon-arrowthickstop-1-w {
+	background-position: -240px -48px;
+}
+
+.ui-icon-arrowreturnthick-1-w {
+	background-position: 0 -64px;
+}
+
+.ui-icon-arrowreturnthick-1-n {
+	background-position: -16px -64px;
+}
+
+.ui-icon-arrowreturnthick-1-e {
+	background-position: -32px -64px;
+}
+
+.ui-icon-arrowreturnthick-1-s {
+	background-position: -48px -64px;
+}
+
+.ui-icon-arrowreturn-1-w {
+	background-position: -64px -64px;
+}
+
+.ui-icon-arrowreturn-1-n {
+	background-position: -80px -64px;
+}
+
+.ui-icon-arrowreturn-1-e {
+	background-position: -96px -64px;
+}
+
+.ui-icon-arrowreturn-1-s {
+	background-position: -112px -64px;
+}
+
+.ui-icon-arrowrefresh-1-w {
+	background-position: -128px -64px;
+}
+
+.ui-icon-arrowrefresh-1-n {
+	background-position: -144px -64px;
+}
+
+.ui-icon-arrowrefresh-1-e {
+	background-position: -160px -64px;
+}
+
+.ui-icon-arrowrefresh-1-s {
+	background-position: -176px -64px;
+}
+
+.ui-icon-arrow-4 {
+	background-position: 0 -80px;
+}
+
+.ui-icon-arrow-4-diag {
+	background-position: -16px -80px;
+}
+
+.ui-icon-extlink {
+	background-position: -32px -80px;
+}
+
+.ui-icon-newwin {
+	background-position: -48px -80px;
+}
+
+.ui-icon-refresh {
+	background-position: -64px -80px;
+}
+
+.ui-icon-shuffle {
+	background-position: -80px -80px;
+}
+
+.ui-icon-transfer-e-w {
+	background-position: -96px -80px;
+}
+
+.ui-icon-transferthick-e-w {
+	background-position: -112px -80px;
+}
+
+.ui-icon-folder-collapsed {
+	background-position: 0 -96px;
+}
+
+.ui-icon-folder-open {
+	background-position: -16px -96px;
+}
+
+.ui-icon-document {
+	background-position: -32px -96px;
+}
+
+.ui-icon-document-b {
+	background-position: -48px -96px;
+}
+
+.ui-icon-note {
+	background-position: -64px -96px;
+}
+
+.ui-icon-mail-closed {
+	background-position: -80px -96px;
+}
+
+.ui-icon-mail-open {
+	background-position: -96px -96px;
+}
+
+.ui-icon-suitcase {
+	background-position: -112px -96px;
+}
+
+.ui-icon-comment {
+	background-position: -128px -96px;
+}
+
+.ui-icon-person {
+	background-position: -144px -96px;
+}
+
+.ui-icon-print {
+	background-position: -160px -96px;
+}
+
+.ui-icon-trash {
+	background-position: -176px -96px;
+}
+
+.ui-icon-locked {
+	background-position: -192px -96px;
+}
+
+.ui-icon-unlocked {
+	background-position: -208px -96px;
+}
+
+.ui-icon-bookmark {
+	background-position: -224px -96px;
+}
+
+.ui-icon-tag {
+	background-position: -240px -96px;
+}
+
+.ui-icon-home {
+	background-position: 0 -112px;
+}
+
+.ui-icon-flag {
+	background-position: -16px -112px;
+}
+
+.ui-icon-calendar {
+	background-position: -32px -112px;
+}
+
+.ui-icon-cart {
+	background-position: -48px -112px;
+}
+
+.ui-icon-pencil {
+	background-position: -64px -112px;
+}
+
+.ui-icon-clock {
+	background-position: -80px -112px;
+}
+
+.ui-icon-disk {
+	background-position: -96px -112px;
+}
+
+.ui-icon-calculator {
+	background-position: -112px -112px;
+}
+
+.ui-icon-zoomin {
+	background-position: -128px -112px;
+}
+
+.ui-icon-zoomout {
+	background-position: -144px -112px;
+}
+
+.ui-icon-search {
+	background-position: -160px -112px;
+}
+
+.ui-icon-wrench {
+	background-position: -176px -112px;
+}
+
+.ui-icon-gear {
+	background-position: -192px -112px;
+}
+
+.ui-icon-heart {
+	background-position: -208px -112px;
+}
+
+.ui-icon-star {
+	background-position: -224px -112px;
+}
+
+.ui-icon-link {
+	background-position: -240px -112px;
+}
+
+.ui-icon-cancel {
+	background-position: 0 -128px;
+}
+
+.ui-icon-plus {
+	background-position: -16px -128px;
+}
+
+.ui-icon-plusthick {
+	background-position: -32px -128px;
+}
+
+.ui-icon-minus {
+	background-position: -48px -128px;
+}
+
+.ui-icon-minusthick {
+	background-position: -64px -128px;
+}
+
+.ui-icon-close {
+	background-position: -80px -128px;
+}
+
+.ui-icon-closethick {
+	background-position: -96px -128px;
+}
+
+.ui-icon-key {
+	background-position: -112px -128px;
+}
+
+.ui-icon-lightbulb {
+	background-position: -128px -128px;
+}
+
+.ui-icon-scissors {
+	background-position: -144px -128px;
+}
+
+.ui-icon-clipboard {
+	background-position: -160px -128px;
+}
+
+.ui-icon-copy {
+	background-position: -176px -128px;
+}
+
+.ui-icon-contact {
+	background-position: -192px -128px;
+}
+
+.ui-icon-image {
+	background-position: -208px -128px;
+}
+
+.ui-icon-video {
+	background-position: -224px -128px;
+}
+
+.ui-icon-script {
+	background-position: -240px -128px;
+}
+
+.ui-icon-alert {
+	background-position: 0 -144px;
+}
+
+.ui-icon-info {
+	background-position: -16px -144px;
+}
+
+.ui-icon-notice {
+	background-position: -32px -144px;
+}
+
+.ui-icon-help {
+	background-position: -48px -144px;
+}
+
+.ui-icon-check {
+	background-position: -64px -144px;
+}
+
+.ui-icon-bullet {
+	background-position: -80px -144px;
+}
+
+.ui-icon-radio-off {
+	background-position: -96px -144px;
+}
+
+.ui-icon-radio-on {
+	background-position: -112px -144px;
+}
+
+.ui-icon-pin-w {
+	background-position: -128px -144px;
+}
+
+.ui-icon-pin-s {
+	background-position: -144px -144px;
+}
+
+.ui-icon-play {
+	background-position: 0 -160px;
+}
+
+.ui-icon-pause {
+	background-position: -16px -160px;
+}
+
+.ui-icon-seek-next {
+	background-position: -32px -160px;
+}
+
+.ui-icon-seek-prev {
+	background-position: -48px -160px;
+}
+
+.ui-icon-seek-end {
+	background-position: -64px -160px;
+}
+
+.ui-icon-seek-start {
+	background-position: -80px -160px;
+}
+
+.ui-icon-seek-first {
+	background-position: -80px -160px;
+}
+
+.ui-icon-stop {
+	background-position: -96px -160px;
+}
+
+.ui-icon-eject {
+	background-position: -112px -160px;
+}
+
+.ui-icon-volume-off {
+	background-position: -128px -160px;
+}
+
+.ui-icon-volume-on {
+	background-position: -144px -160px;
+}
+
+.ui-icon-power {
+	background-position: 0 -176px;
+}
+
+.ui-icon-signal-diag {
+	background-position: -16px -176px;
+}
+
+.ui-icon-signal {
+	background-position: -32px -176px;
+}
+
+.ui-icon-battery-0 {
+	background-position: -48px -176px;
+}
+
+.ui-icon-battery-1 {
+	background-position: -64px -176px;
+}
+
+.ui-icon-battery-2 {
+	background-position: -80px -176px;
+}
+
+.ui-icon-battery-3 {
+	background-position: -96px -176px;
+}
+
+.ui-icon-circle-plus {
+	background-position: 0 -192px;
+}
+
+.ui-icon-circle-minus {
+	background-position: -16px -192px;
+}
+
+.ui-icon-circle-close {
+	background-position: -32px -192px;
+}
+
+.ui-icon-circle-triangle-e {
+	background-position: -48px -192px;
+}
+
+.ui-icon-circle-triangle-s {
+	background-position: -64px -192px;
+}
+
+.ui-icon-circle-triangle-w {
+	background-position: -80px -192px;
+}
+
+.ui-icon-circle-triangle-n {
+	background-position: -96px -192px;
+}
+
+.ui-icon-circle-arrow-e {
+	background-position: -112px -192px;
+}
+
+.ui-icon-circle-arrow-s {
+	background-position: -128px -192px;
+}
+
+.ui-icon-circle-arrow-w {
+	background-position: -144px -192px;
+}
+
+.ui-icon-circle-arrow-n {
+	background-position: -160px -192px;
+}
+
+.ui-icon-circle-zoomin {
+	background-position: -176px -192px;
+}
+
+.ui-icon-circle-zoomout {
+	background-position: -192px -192px;
+}
+
+.ui-icon-circle-check {
+	background-position: -208px -192px;
+}
+
+.ui-icon-circlesmall-plus {
+	background-position: 0 -208px;
+}
+
+.ui-icon-circlesmall-minus {
+	background-position: -16px -208px;
+}
+
+.ui-icon-circlesmall-close {
+	background-position: -32px -208px;
+}
+
+.ui-icon-squaresmall-plus {
+	background-position: -48px -208px;
+}
+
+.ui-icon-squaresmall-minus {
+	background-position: -64px -208px;
+}
+
+.ui-icon-squaresmall-close {
+	background-position: -80px -208px;
+}
+
+.ui-icon-grip-dotted-vertical {
+	background-position: 0 -224px;
+}
+
+.ui-icon-grip-dotted-horizontal {
+	background-position: -16px -224px;
+}
+
+.ui-icon-grip-solid-vertical {
+	background-position: -32px -224px;
+}
+
+.ui-icon-grip-solid-horizontal {
+	background-position: -48px -224px;
+}
+
+.ui-icon-gripsmall-diagonal-se {
+	background-position: -64px -224px;
+}
+
+.ui-icon-grip-diagonal-se {
+	background-position: -80px -224px;
+}
+
+.ui-corner-all,.ui-corner-top,.ui-corner-left,.ui-corner-tl {
+	-moz-border-radius-topleft: 4px;
+	-webkit-border-top-left-radius: 4px;
+	-khtml-border-top-left-radius: 4px;
+	border-top-left-radius: 4px;
+}
+
+.ui-corner-all,.ui-corner-top,.ui-corner-right,.ui-corner-tr {
+	-moz-border-radius-topright: 4px;
+	-webkit-border-top-right-radius: 4px;
+	-khtml-border-top-right-radius: 4px;
+	border-top-right-radius: 4px;
+}
+
+.ui-corner-all,.ui-corner-bottom,.ui-corner-left,.ui-corner-bl {
+	-moz-border-radius-bottomleft: 4px;
+	-webkit-border-bottom-left-radius: 4px;
+	-khtml-border-bottom-left-radius: 4px;
+	border-bottom-left-radius: 4px;
+}
+
+.ui-corner-all,.ui-corner-bottom,.ui-corner-right,.ui-corner-br {
+	-moz-border-radius-bottomright: 4px;
+	-webkit-border-bottom-right-radius: 4px;
+	-khtml-border-bottom-right-radius: 4px;
+	border-bottom-right-radius: 4px;
+}
+
+.ui-widget-overlay {
+	background: #666666
+		url(/js/lib/jquery-ui/css/ui-lego/images/ui-bg_diagonals-thick_20_666666_40x40.png)
+		50% 50% repeat;
+	opacity: .50;
+	filter: Alpha(Opacity = 50);
+}
+
+.ui-widget-shadow {
+	margin: -5px 0 0 -5px;
+	padding: 5px;
+	background: #000000
+		url(/js/lib/jquery-ui/css/ui-lego/images/ui-bg_flat_10_000000_40x100.png)
+		50% 50% repeat-x;
+	opacity: .20;
+	filter: Alpha(Opacity = 20);
+	-moz-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.ui-slider {
+	position: relative;
+	text-align: left;
+}
+
+.ui-slider .ui-slider-handle {
+	border: none;
+	position: absolute;
+	z-index: 2;
+	width: 1.7em;
+	height: 1.7em;
+	cursor: default;
+	background: url(/js/lib/jquery-ui/css/ui-lego/images/btn-slider.png)
+		no-repeat center center;
+}
+
+.ui-slider .ui-slider-range {
+	position: absolute;
+	z-index: 1;
+	font-size: .7em;
+	display: block;
+	border: 0;
+	background-position: 0 0;
+}
+
+.ui-slider-horizontal {
+	height: .8em;
+}
+
+.ui-slider-horizontal .ui-slider-handle {
+	top: -1.5em;
+	margin-left: -1.3em;
+	padding: 10px
+}
+
+.ui-slider-horizontal .ui-slider-range {
+	top: 0;
+	height: 10px;
+	overflow: hidden;
+}
+
+.ui-slider-horizontal .ui-slider-range-min {
+	left: 0;
+}
+
+.ui-slider-horizontal .ui-slider-range-max {
+	right: 0;
+}
+
+.ui-slider-vertical {
+	width: .8em;
+	height: 100px;
+}
+
+.ui-slider-vertical .ui-slider-handle {
+	left: -.3em;
+	margin-left: 0;
+	margin-bottom: -.6em;
+}
+
+.ui-slider-vertical .ui-slider-range {
+	left: 0;
+	width: 100%;
+}
+
+.ui-slider-vertical .ui-slider-range-min {
+	bottom: 0;
+}
+
+.ui-slider-vertical .ui-slider-range-max {
+	top: 0;
+}
+
+#floatingFooter {
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#ffffff),
+		to(#EFEFEF));
+	background-image: -webkit-linear-gradient(top, #ffffff, #EFEFEF);
+	background-image: -moz-linear-gradient(top, #ffffff, #EFEFEF);
+	background-image: -ms-linear-gradient(top, #ffffff, #EFEFEF);
+	background-image: -o-linear-gradient(top, #ffffff, #EFEFEF);
+	background-image: linear-gradient(#ffffff, #EFEFEF);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed',
+		endColorstr='#ffffff', GradientType=0);
+	background-color: #fff;
+	border: 1px solid #D9DFE4;
+	border-width: 1px 0px 0px 1px;
+	border-radius: -webkit-border-top-left-radius:5px;
+	border-radius: -moz-border-radius-topleft:5px;
+	border-radius: border-top-left-radius:5px;
+	border-radius: 5px 0 0 0;
+	-webkit-border-radius: 5px 0 0 0;
+	padding: 0 0 0 10px;
+	bottom: 0;
+	height: 20px;
+	position: fixed;
+	right: 0;
+	z-index: 999;
+	text-align: right;
+}
+
+#floatingFooterText {
+	margin-top: 3px;
+	margin-right: 15px;
+}
+
+#floatingFooterText a {
+	color: #73706e;
+}
+
+.ie7 #floatingFooter,.ie8 #floatingFooter {
+	border: 0px;
+}
+
+.ie8 #floatingFooter span.top-right,.ie8 #floatingFooter span.bottom-left,.ie8 #floatingFooter span.bottom,.ie8 #floatingFooter span.bottom-right,.ie7 #floatingFooter span.top-right,.ie7 #floatingFooter span.bottom-left,.ie7 #floatingFooter span.bottom,.ie7 #floatingFooter span.bottom-right
+	{
+	display: none;
+}
+
+#popular-theme {
+	margin-top: 30px;
+}
+
+#todays-specials {
+	background-color: #fef6eb;
+	background-image: url(/icons.png);
+	background-position: -7px 2px;
+	background-repeat: no-repeat;
+	border: 1px solid #D7D7D7;
+	border-radius:5px;
+	margin-top: 3px;
+	margin-bottom: 3px;
+	padding: 10px;
+	padding-left: 50px;
+	position:relative;
+}
+
+#todays-specials:hover {
+	-moz-box-shadow: 0 0 3px rgba(0,0,0,0.5);
+	-webkit-box-shadow: 0 0 3px rgba(0,0,0,0.5);
+	box-shadow: 0 0 3px rgba(0,0,0,0.5);
+	background-color:#fcc4c9;
+}
+	
+#spanlink{ 
+  position:absolute; 
+  width:100%;
+  height:100%;
+  top:0;
+  left: 0;
+
+  /* edit: added z-index */
+  z-index: 1;
+
+  /* edit: fixes overlap error in IE7/8, 
+     make sure you have an empty gif */
+  background-image: url(/empty.png);
+}  
+
+#star {
+	margin-left: -3px;
+	margin-bottom: 3px;
+}
+
+#menu>ul
+{
+list-style-type:none;
+display:table;
+margin:0 auto 0;
+padding:0;
+overflow:hidden;
+}
+
+#menu>li
+{
+float:left;
+}
+
+#menu>a:link,#menu>a:visited
+{
+display:block;
+font-weight:bold;
+color:#3b3b3b;
+background-color:#faf0dd;
+text-align:center;
+padding:4px;
+text-decoration:none;
+text-transform:uppercase;
+}
+
+#menu>a:hover,#menu>a:active
+{
+background-color:#fcc4c9;
+}
+
+#fbframe{
+	margin: 0 auto 3px auto;
+	position: relative;
+}
+
+#userFrame 
+{
+    position:relative;
+    width:950px;
+}
+
+#userFrame>p
+{
+	font-family: 'Helvetica Neue', Helvetica, Arial, 'lucida grande',tahoma,verdana,arial,sans-serif;
+	color: #333;
+	line-height: 1.28;
+    text-align:right;
+	font-size: 11px;    
+}
+
+#userFrame>p>a:link,#userFrame>a:visited
+{
+	font-family: 'Helvetica Neue', Helvetica, Arial, 'lucida grande',tahoma,verdana,arial,sans-serif;
+	color: #3b5998;
+	line-height: 1.28;
+	font-size: 11px;    
+}

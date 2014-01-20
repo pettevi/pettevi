@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns="http://java.sun.com/xml/ns/javaee"
+xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+	<servlet>
+		<servlet-name>HelloWorld</servlet-name>
+		<servlet-class>guestbook.GuestbookServlet</servlet-class>
+	</servlet>
+	<servlet>
+        <servlet-name>sign</servlet-name>
+        <servlet-class>guestbook.SignGuestbookServlet</servlet-class>
+    </servlet>
+	<servlet>
+        <servlet-name>formtest</servlet-name>
+        <servlet-class>formtest.FormTest</servlet-class>
+    </servlet>
+	<servlet>
+        <servlet-name>birthday</servlet-name>
+        <servlet-class>birthday.Birthday</servlet-class>
+    </servlet>
+	<servlet>
+		<servlet-name>rot13</servlet-name>
+		<servlet-class>rot13.Rot13</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>signup</servlet-name>
+		<servlet-class>signup.Signup</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>titlegenerator</servlet-name>
+		<servlet-class>titlegenerator.Titlegenerator</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>missiongenerator</servlet-name>
+		<servlet-class>missionstatement.Missionstatement</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>processcontact</servlet-name>
+		<servlet-class>processcontact.Processcontact</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>secure</servlet-name>
+		<servlet-class>secure.Secure</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>HelloWorld</servlet-name>
+		<url-pattern>/guestbook</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+        <servlet-name>sign</servlet-name>
+        <url-pattern>/sign</url-pattern>
+    </servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>formtest</servlet-name>
+		<url-pattern>/formtest</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>birthday</servlet-name>
+		<url-pattern>/birthday</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>rot13</servlet-name>
+		<url-pattern>/rot13</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>signup</servlet-name>
+		<url-pattern>/signup</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>titlegenerator</servlet-name>
+		<url-pattern>/titlegenerator</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>missiongenerator</servlet-name>
+		<url-pattern>/missiongenerator</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>processcontact</servlet-name>
+		<url-pattern>/processcontact</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>secure</servlet-name>
+		<url-pattern>/secure</url-pattern>
+	</servlet-mapping>
+	
+	<welcome-file-list>
+		<welcome-file>index.jsp</welcome-file>
+	</welcome-file-list>
+	
+	<security-constraint>
+        <web-resource-collection>
+            <web-resource-name>secure</web-resource-name>
+            <url-pattern>/secure.jsp</url-pattern>
+        </web-resource-collection>
+        <auth-constraint>
+            <role-name>*</role-name>
+        </auth-constraint>
+    </security-constraint>
+	
+</web-app>
