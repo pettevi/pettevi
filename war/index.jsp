@@ -4,15 +4,16 @@
 <html>
   <head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-	<link href="stylesheets/header.css" rel="stylesheet" type="text/css" media="screen"> 
+	<link href="stylesheets/header.css" rel="stylesheet" type="text/css" /> 
 	<link href="stylesheets/contactbox.css" rel="stylesheet" type="text/css" />
+	<link href="stylesheets/hover.css" rel="stylesheet" type="text/css" />
 	<link href="menucool/js-image-slider.css" rel="stylesheet" type="text/css" />
 	<script src="menucool/js-image-slider.js" type="text/javascript"></script>
     <title>HTML5 is fun!</title>
   </head>
 
   <body>
-  
+
 	<div id="fb-root"></div>
 	<script>
 		(function(d, s, id) {
@@ -36,7 +37,13 @@
 <li id="menu"><a id="menu" href="javascript:void(0)" onclick="document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block'">Get in Touch!</a></li>
 </ul>
 </div>
- 
+
+<a href="http://ianlunn.co.uk/articles/hover-css-tutorial-introduction/">
+<div id="floating-frame" class="glow">
+</div>
+</a>
+
+
 <div id="light" class="clearfix">
 	<div id="close">
         <a href="javascript:void(0)" id="closebutton" onclick="document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'">
@@ -107,7 +114,10 @@
 <%@ page import="com.google.appengine.api.users.UserServiceFactory" %>
 <%
 if (request.getUserPrincipal() != null) {
-    out.println("<p>Hello, " + request.getUserPrincipal().getName() + "</p>");
+	String thisURL = request.getRequestURI();
+	UserService userService = UserServiceFactory.getUserService();
+	String logoutURL = userService.createLogoutURL(thisURL);
+    out.println("<p>Hello, " + request.getUserPrincipal().getName() + ". <a href=\"" + logoutURL + "\">Sign out.</a></p>");
 } else {
 	String thisURL = request.getRequestURI();
 	UserService userService = UserServiceFactory.getUserService();
@@ -121,7 +131,11 @@ if (request.getUserPrincipal() != null) {
 	<div id="popular-theme">
 
       <div id="todays-specials">
-      <a href="googlemap.jsp">Examples of <span id="spanlink"></span> map embed</a>
+      <a href="youtube.jsp">YouTube <span id="spanlink"></span> integration</a>
+      </div>
+
+      <div id="todays-specials">
+      <a href="googlemap.jsp">Maps <span id="spanlink"></span></a>
       </div>
 
       <div id="todays-specials">
@@ -189,8 +203,6 @@ System Requirements: JavaScript enabled, Cookies accepted, Flash is not required
 <div id="floatingFooter">
 <div id="floatingFooterText">
 <a href="privacypolicy.jsp">Privacy Policy</a>
-&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;
-<a href="cookies.jsp">Cookies</a>
 </div>
 </div>
 

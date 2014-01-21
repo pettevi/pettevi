@@ -26,7 +26,7 @@ if (request.getUserPrincipal() != null) {
 
 <p>You do not see this page unless you sign in first.</p>
 
-<a class="btn" href="index.html" target="_top">Back to start page</a>
+<a class="btn" href="index.jsp" target="_top">Back to start page</a>
 
 <%@ page import="com.google.appengine.api.users.UserService" %>
 <%@ page import="com.google.appengine.api.users.UserServiceFactory" %>

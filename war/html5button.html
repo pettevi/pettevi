@@ -4,6 +4,8 @@
 <head>
 <meta charset="utf-8">
 
+<link href="stylesheets/hover.css" rel="stylesheet" media="all">
+
 <style type="text/css"> 
 html{overflow-y:scroll;}
 
@@ -15,56 +17,27 @@ body {font-size:14px;color:#555555;background-color:#f1f1f1;margin:0px;}
 
 div {width:100%;margin:0;padding:0;}
 
-div.gsc-control-cse {padding:0;background-color:transparent;border:none;}
+div.box1 {float:left;width:210px;margin-top:40px}
+div.box1-right {margin-left:96px}
 
-td.gsc-search-button input.gsc-search-button {border:none;border-color:#555555;background-color:#555555;}
-
-div.box1 {float:left;width:310px;margin-top:40px;}
-div.box3 {float:left;width:310px;margin-top:30px;}
-
-div.boxDemo {float:left;width:456px;background-color:#f1f1f1;border:1px solid #e3e3e3;padding:20px;padding-bottom:10px;text-align:center;margin-top:40px;margin-right:60px;}
-div.boxDemo h2 {font-size:28px;margin:0px;}
-div.boxDemo a.btn {text-align:center;width:100px;float:left;margin-left:20px;background-color:#ffffff;}
-div.boxDemo a.btn:hover {background-color:#555555;}
-
-div.boxRef {float:right;width:310px;}
-div.boxRef h1 {font-size:32px;margin-top:30px;margin-bottom:10px;}
-div.boxRef a:before {content:"\00BB  ";font-weight:bold;color:#ff4800;}
+div.boxDemo {float:left;width:456px;background-color:#f1f1f1;border:1px solid #e3e3e3;padding:20px;text-align:center;margin-top:40px}
 
 div.image {box-shadow: 0px 10px 20px 3px #d3d3d3;width:100px;height:80px;border-radius:4px;float:left;background-image:url('/icons.png');background-repeat:no-repeat;background-position:center;}
 
 div.box1 h1 {font-size:32px;margin:0px;float:left;padding-left:10px;padding-top:18px;height:80px;}
-div.box1 h2 {margin:0px;float:left;padding-left:10px;padding-top:18px;}
 
 a.box {color:#555555;}
 a.btn {display:block;width:170px;margin-bottom:10px;background-color:#f1f1f1;border:1px solid #e3e3e3;padding:8px;border-radius:4px;font-size:16px;color:#555555;text-decoration:none;}
 a.btn:hover {background-color:#555555;color:#ffffff;border:1px solid #555555;}
-
-.box3 a {margin-top:14px;margin-bottom:30px;}
-
-.boxRef a {text-decoration:none;font-size:14px;color:#555555;line-height:20px;}
-.boxRef a:hover {text-decoration:underline;}
-.boxRef a.box:before {content:"";}
-.boxRef a.box:hover {text-decoration:none;}
-.boxRef h1 {height:28px;padding-top:9px;}
+a.btn-border-fade {display:block;width:170px;margin-bottom:10px;background-color:#ffffff;padding:8px;border-radius:4px;font-size:16px;color:#555555;text-decoration:none;text-align:center;width:100px;float:left;margin-left:20px;}
+a.btn-border-fade:hover {background-color:#ffffff}
 
 h1, h2, h3 {
 	font-weight:normal;font-family:"Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
-.bottom {width:1200px;margin:auto;margin-top:0px;margin-bottom:340px;}
-.bottom a {color:#555555;text-decoration:none;}
-.bottom a:hover {text-decoration:underline;}
+#page {width:540px;margin:20px auto;background-color:#ffffff;padding-left:40px;padding-bottom:40px;box-shadow: 0px 10px 20px 3px #d3d3d3;}
 
-#page {width:1160px;margin:auto;background-color:#ffffff;padding-left:40px;padding-bottom:40px;box-shadow: 0px 10px 20px 3px #d3d3d3;}
-
-a.colorpicker {text-decoration:none;color:#555555;}
-
-#maincol {width:934px;float:left;}
-
-div.about {word-spacing:6px;font-size:10px;padding-top:15px;float:left;width:340px;text-align:right;}
-div.about a {color:#555555;text-decoration:none;}
-div.about a:hover {text-decoration:underline;}
 </style>
 </head>
 
@@ -74,40 +47,31 @@ div.about a:hover {text-decoration:underline;}
 
 	<div>
 		<div class="box1">
-			<a class="box" href="index.html" target="_top">
+			<a class="box" href="index.jsp" target="_top">
 				<div class="image" style="background-color:#87C71D;"></div>
 				<h1>Green</h1>
 			</a>
 			<div style="clear:both;"></div>
-			<a class="btn" href="index.html" target="_top">Link</a>
-			<a class="btn" href="index.html" target="_top">To Index.html</a>			
+			<a class="btn" href="index.jsp" target="_top">Link</a>
+			<a class="btn" href="index.jsp" target="_top">To index.jsp</a>			
 		</div>
-		<div class="box1">
-			<a class="box" href="index.html" target="_top">		
+		<div class="box1 box1-right">
+			<a class="box" href="index.jsp" target="_top">		
 				<div class="image" style="background-color:#07B3D3;"></div>
 				<h1>Blue</h1>
 			</a>
 			<div style="clear:both;"></div>
-			<a class="btn" href="index.html" target="_top">This is long text</a>
-			<a class="btn" href="index.html" target="_top">That does not fit on one line</a>			
+			<a class="btn" href="index.jsp" target="_top">This is long text</a>
+			<a class="btn" href="index.jsp" target="_top">That does not fit on one line</a>			
 		</div>
-		<div class="box1">
-			<a class="box" href="index.html" target="_top">		
-				<div class="image" style="background-color:#CC66FF;"></div>
-				<h1>Lila</h1>
-			</a>
-			<div style="clear:both;"></div>
-			<a class="btn" href="index.html" target="_top">I'm a button</a>
-			<a class="btn" href="index.html" target="_top">No, I'm a link</a>			
-		</div>		
 
 		<div class="boxDemo">
 			<h2>More Buttons!</h2>
 			<p>This is a demo of how links are made to look like<br>
 			buttons with just styles</p>
-			<a class="btn" href="index.html" target="_top">Demo</a>
-			<a class="btn" href="index.html" target="_top">Another Button</a>
-			<a class="btn" href="index.html" target="_top">Index</a>
+			<a class="btn-border-fade border-fade" href="index.jsp" target="_top">Demo</a>
+			<a class="btn-border-fade border-fade" href="index.jsp" target="_top">Another Button</a>
+			<a class="btn-border-fade border-fade" href="index.jsp" target="_top">Index</a>
 		</div>
 
 	</div>

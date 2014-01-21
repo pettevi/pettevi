@@ -14,12 +14,10 @@
 
 <html>
   <head>
-    <link type="text/css" rel="stylesheet" href="/stylesheets/main.css" />
+    <link type="text/css" rel="stylesheet" href="/stylesheets/header.css" />
   </head>
   
   <body>
-  
-  <p>version 2</p>
  
 <%
     String guestbookName = request.getParameter("guestbookName");
@@ -32,13 +30,14 @@
     if (user != null) {
       pageContext.setAttribute("user", user);
 %>
-<p>Hello, ${fn:toUpperCase(user.nickname)}! (You can
+<h1>Hello.</h1>
+<p>${fn:toUpperCase(user.nickname)}! (You can
 <a href="<%= userService.createLogoutURL(request.getRequestURI()) %>">sign out</a>.)</p>
 <%
     } else {
 %>
-<p>Hello!
-<a href="<%= userService.createLoginURL(request.getRequestURI()) %>">Sign in</a>
+<h1>Hello!</h1>
+<p><a href="<%= userService.createLoginURL(request.getRequestURI()) %>">Sign in</a>
 to include your name with greetings you post.</p>
 <%
     }
@@ -64,13 +63,13 @@ to include your name with greetings you post.</p>
                                      greeting.getProperty("content"));
             if (greeting.getProperty("user") == null) {
                 %>
-                <p>An anonymous person wrote:</p>
+                <p><br>An anonymous person wrote:</p>
                 <%
             } else {
                 pageContext.setAttribute("greeting_user",
                                          greeting.getProperty("user"));
                 %>
-                <p><b>${fn:escapeXml(greeting_user.nickname)}</b> wrote:</p>
+                <p><br><b>${fn:escapeXml(greeting_user.nickname)}</b> wrote:</p>
                 <%
             }
             %>
