@@ -43,7 +43,6 @@
 </div>
 </a>
 
-
 <div id="light" class="clearfix">
 	<div id="close">
         <a href="javascript:void(0)" id="closebutton" onclick="document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'">
@@ -76,7 +75,7 @@
 
 <div id="fade" class="black_overlay"></div>
 
-<div id="main" role="main">
+<div id="main">
 
 <a href="https://twitter.com/share" class="twitter-share-button" data-count="none">Tweet</a>
 <script>
@@ -131,44 +130,61 @@ if (request.getUserPrincipal() != null) {
 	<div id="popular-theme">
 
       <div id="todays-specials">
-      <a href="youtube.jsp">YouTube <span id="spanlink"></span> integration</a>
+      <a href="cookies.jsp">Cookies <span id="spanlink"></span></a> - Test about how to read, write and delete cookies.
       </div>
 
       <div id="todays-specials">
-      <a href="googlemap.jsp">Maps <span id="spanlink"></span></a>
+      <a href="ad.jsp">Ads <span id="spanlink"></span></a> - Advertising ad-ons from newspapers, jobs, latest ice hockey results and other plug-ins from snsstatic.fi 
       </div>
 
       <div id="todays-specials">
-      <a href="guestbook">Hello <span id="spanlink"></span> world</a>
+      <a href="youtube.jsp">YouTube <span id="spanlink"></span> integration</a> - How to integrate and display customised YouTube video on web page
       </div>
 
       <div id="todays-specials">
-      <a href="guestbook.jsp">Guestbook<span id="spanlink"></span></a>
-      </div>
-      
-      <div id="todays-specials">
-      <a href="formtest/formtest.jsp">Form test<span id="spanlink"></span></a>
-      </div>
-      
-      <div id="todays-specials">
-      <a href="birthday.jsp">Birthday surprise<span id="spanlink"></span></a>
+      <a href="googlemap.jsp">Maps <span id="spanlink"></span></a> - How to use different map services from Google, Microsoft, Nokia and others
       </div>
 
       <div id="todays-specials">
-      <a href="rot13/rot13.jsp">ROT13<span id="spanlink"></span></a>
+      <a href="forwarding.jsp">Server <span id="spanlink"></span> forwarding</a> - Server side forwarding and error handling
+      </div>
+
+      <div id="todays-specials">
+      <a href="guestbook.jsp">Guestbook<span id="spanlink"></span></a> - Very very simply guestbook example to demonstrate user log in
       </div>
       
       <div id="todays-specials">
-      <a href="signup.jsp">Signup test<span id="spanlink"></span></a>
+      <a href="formtest/formtest.jsp">Form test<span id="spanlink"></span></a> - Different forms and input controls just for testing
       </div>
       
       <div id="todays-specials">
-      <a href="titlegenerator.jsp">Job Title Generator<span id="spanlink"></span></a>
+      <a href="birthday.jsp">Birthday surprise<span id="spanlink"></span></a> - How to read on server side form data and respond back to browser depending on the input
+      </div>
+
+      <div id="todays-specials">
+      <a href="rot13/rot13.jsp">ROT13<span id="spanlink"></span></a> - Simple cypher encryption that replaces each English letter with the one 13 places forward or back along the alphabet
       </div>
       
       <div id="todays-specials">
-      <a href="missiongenerator.jsp">Mission Statement Generator<span id="spanlink"></span></a>
+      <a href="signup.jsp">Signup test<span id="spanlink"></span></a> - Sing-in, never sign-out, verifies your credentials on server side
       </div>
+      
+      <div id="todays-specials">
+      <a href="titlegenerator.jsp">Job Title Generator<span id="spanlink"></span></a> - Get yourself a new job title, randomised
+      </div>
+      
+      <div id="todays-specials">
+      <a href="missiongenerator.jsp">Mission Statement Generator<span id="spanlink"></span></a> - Is your company missing proper mission? Get a new one here!
+      </div>
+
+      <div id="todays-specials">
+      <a href="hitcounter">Page hit counter<span id="spanlink"></span></a> - See if somebody cares to visit you and how many times, a small example how to use AppEngine Datastore
+      </div>
+      
+      <div id="todays-specials">
+      <a href="http://localhost:8080/_ah/admin">Admin console<span id="spanlink"></span></a>
+      </div>
+
 
 </div>
 </div>
@@ -179,14 +195,14 @@ if (request.getUserPrincipal() != null) {
 <div id="bottom-banner">
 <h3>SECURITY</h3>
 <p>
-When you sign up to us for a membership or online purchases, all personal data entry has been secured to the best level of security available. We have been trusted to deploy best of class anti-hacker protection, enabling visitors to verify the site's authenticity and to communicate with it securely via a high level of encryption, which protects data such as user's name, password, credit card, addresses and shipping information from interception and hacking.
+When you sign up to us for a membership, no personal data safety guarantees can be made to any level of security available. We have not been trusted to deploy best of class anti-hacker protection, enabling visitors to verify the site's authenticity or to communicate with it securely via a high level of encryption, which should protect data such as user's name, password, credit card, addresses and shipping information from interception and hacking.
 </p>
 <br>
 <h3>BROWSER REQUIREMENTS</h3>
 <p>
 Supported Browsers: 
-<p>Internet Explorer: IE7, IE8, IE9</p> 
-<p>Firefox: FF3.6, FF5.0 and current version</p>
+<p>Internet Explorer: IE8, IE9</p> 
+<p>Firefox: FF5.0 and current version</p>
 <p>Google Chrome: current version</p>
 <p>Safari: Current version on Mac OS (Safari is not fully supported on Windows)</p>
 <br>

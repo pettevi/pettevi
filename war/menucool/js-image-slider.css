@@ -83,7 +83,7 @@
     background:transparent url(bullet.png) no-repeat 0 0;
     display:inline-block; *display:inline; zoom:1;
     overflow:hidden;cursor:pointer;
-    margin:0 6px;/* set distance between each bullet*/
+    margin:-8px 6px;/* set distance between each bullet*/
 }
 
 #slider div.navBulletsWrapper div.active 

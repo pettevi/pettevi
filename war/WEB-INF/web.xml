@@ -5,8 +5,8 @@ xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
 xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
 http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 	<servlet>
-		<servlet-name>HelloWorld</servlet-name>
-		<servlet-class>guestbook.GuestbookServlet</servlet-class>
+		<servlet-name>Forwarding</servlet-name>
+		<servlet-class>forwarding.ServerForwarding</servlet-class>
 	</servlet>
 	<servlet>
         <servlet-name>sign</servlet-name>
@@ -44,10 +44,18 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 		<servlet-name>secure</servlet-name>
 		<servlet-class>secure.Secure</servlet-class>
 	</servlet>
-	
+  <servlet>
+    <servlet-name>usingcookies</servlet-name>
+    <servlet-class>cookies.UsingCookies</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>hitcounter</servlet-name>
+    <servlet-class>hitcounter.HitCounter</servlet-class>
+  </servlet>
+  
 	<servlet-mapping>
-		<servlet-name>HelloWorld</servlet-name>
-		<url-pattern>/guestbook</url-pattern>
+		<servlet-name>Forwarding</servlet-name>
+		<url-pattern>/forwarding</url-pattern>
 	</servlet-mapping>
 	<servlet-mapping>
         <servlet-name>sign</servlet-name>
@@ -85,6 +93,14 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 		<servlet-name>secure</servlet-name>
 		<url-pattern>/secure</url-pattern>
 	</servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>usingcookies</servlet-name>
+    <url-pattern>/cookies</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>hitcounter</servlet-name>
+    <url-pattern>/hitcounter</url-pattern>
+  </servlet-mapping>
 	
 	<welcome-file-list>
 		<welcome-file>index.jsp</welcome-file>

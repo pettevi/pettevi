@@ -2,42 +2,46 @@
 <head>
 
 <style type="text/css"> 
-html{overflow-y:scroll;}
+	html{overflow-y:scroll;}
+	
+	body,p,input {font-family:verdana,helvetica,arial,sans-serif;}
+	
+	body {font-size:14px;color:#555555;background-color:#f1f1f1;margin:0px;}
+	
+	a.btn {text-align:center;display:block;width:170px;margin:10px auto;background-color:#f1f1f1;border:1px solid #e3e3e3;padding:8px;border-radius:4px;font-size:16px;color:#555555;text-decoration:none;}
+	a.btn:hover {background-color:#555555;color:#ffffff;border:1px solid #555555;}
 
-body,p,input {font-family:verdana,helvetica,arial,sans-serif;}
-
-body {font-size:14px;color:#555555;background-color:#f1f1f1;margin:0px;}
-
-a.btn {text-align:center;display:block;width:170px;margin:10px auto;background-color:#f1f1f1;border:1px solid #e3e3e3;padding:8px;border-radius:4px;font-size:16px;color:#555555;text-decoration:none;}
-a.btn:hover {background-color:#555555;color:#ffffff;border:1px solid #555555;}
-
-</style>
-
-<style>
   #container {
     width: 950px;
     height: 400px;
     margin: 20px auto;
     padding: 20px;
-	border: 1px solid #D7D7D7;
-	border-radius:5px;
-	position:relative;
+		border: 1px solid #D7D7D7;
+		border-radius:5px;
+		position:relative;
   }
   
-  #googlecanvas, #bingcanvas, #mapContainer, #mapquestcanvas {
+  #googlecanvas, #bingcanvas, #mapContainer, #mapquestcanvas, #openstreetmapcanvas {
     width: 500px;
     height: 400px;
-	padding: 0;
-	display: inline-block;
-	border: 2px solid #D7D7D7;
-	border-radius:1px;
-	vertical-align: middle;
+		padding: 0;
+		display: inline-block;
+		border: 2px solid #D7D7D7;
+		border-radius:1px;
+		vertical-align: middle;
   }
   
   #logo { 
-	vertical-align: middle;
-	display: inline-block;
-	width: 330px;
+		vertical-align: middle;
+		display: inline-block;
+		width: 330px;
+  }
+  
+  /* #openstreetmapcanvas */
+  div.olControlAttribution, div.olControlScaleLine {
+    font-family: Verdana;
+    font-size: 0.7em;
+    bottom: 3px;
   }
 </style>
 
@@ -91,17 +95,25 @@ a.btn:hover {background-color:#555555;color:#ffffff;border:1px solid #555555;}
  
  </script>
  
+ <!-- openstreetmap maps -->
+    <script src="openstreetmap/OpenLayers.js"></script>
+    <script>
+      function init() {
+        map = new OpenLayers.Map("openstreetmapcanvas");
+        var mapnik         = new OpenLayers.Layer.OSM();
+        var fromProjection = new OpenLayers.Projection("EPSG:4326");   // Transform from WGS 1984
+        var toProjection   = new OpenLayers.Projection("EPSG:900913"); // to Spherical Mercator Projection
+        var position       = new OpenLayers.LonLat(25.476608, 65.011576).transform( fromProjection, toProjection);
+        var zoom           = 13; 
+ 
+        map.addLayer(mapnik);
+        map.setCenter(position, zoom );
+      }
+    </script>
+    
 </head>
 
-<body>
-
-<%
-if (request.getUserPrincipal() != null) {
-    out.println("<h2>Hello, " + request.getUserPrincipal().getName() + "</h2>");
-} else {
-    out.println("<p>Please sign in first</p>");
-}
-%>
+<body onload="init();">
 
 <!-- Google maps -->
 <div id="container">
@@ -181,9 +193,13 @@ var map = new nokia.maps.map.Display(mapContainer, {
 <div id="logo"><img src="http://o.aolcdn.com/os/mapquest/brand/PNG/MapQuest_Logo_Medium.png"></div>
 <div id="mapquestcanvas"></div>
 </div>
+
+
+<!-- openstreetmap maps -->
+<div id="container">
+<div id="logo"><img src="http://wiki.openstreetmap.org/w/images/archive/7/79/20121123222537!Public-images-osm_logo.svg"></div>
+<div id="openstreetmapcanvas"></div>
 </div>
-
-
 
 <a class="btn" href="index.jsp" target="_top">Back to start page</a>
 
