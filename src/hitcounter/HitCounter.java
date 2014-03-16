@@ -16,7 +16,7 @@ public class HitCounter extends HttpServlet {
 
 	public void doGet(HttpServletRequest request, HttpServletResponse response)
 			throws IOException {
-	
+
 	    DatastoreService datastore = DatastoreServiceFactory.getDatastoreService();
 	    Key myKey = KeyFactory.createKey("hitcounter", "pettevi");
 
@@ -30,7 +30,7 @@ public class HitCounter extends HttpServlet {
 	    
 	    if (counterEntity == null)
 	    {
-	    	System.out.println("counterEntity:" + counterEntity); 
+//	    	System.out.println("counterEntity:" + counterEntity); 
 	        Entity newCounter = new Entity("hitcounter", myKey);
 	        newCounter.setProperty("counter", "0");
 	        newCounter.setProperty("date", new Date());

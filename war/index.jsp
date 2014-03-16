@@ -31,7 +31,7 @@
     
 <div id="header" class="test-header-section">
 <ul id="shop-navigation-bar">
-<li id="menu"><a id="menu" href="html5clock.html">HTML5  Clock</a></li>
+<li id="menu"><a id="menu" href="http://localhost:8080/_ah/admin">Admin Console</a></li>
 <li id="menu"><a id="menu" href="html5button.html">Link Looks Like A Button</a></li>
 <li id="menu"><a id="menu" href="secure.jsp">Secure Section</a></li>
 <li id="menu"><a id="menu" href="javascript:void(0)" onclick="document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block'">Get in Touch!</a></li>
@@ -130,6 +130,10 @@ if (request.getUserPrincipal() != null) {
 	<div id="popular-theme">
 
       <div id="todays-specials">
+      <a href="image.jsp">Image upload <span id="spanlink"></span></a> - Upload image to DB and display it
+      </div>
+
+      <div id="todays-specials">
       <a href="cookies.jsp">Cookies <span id="spanlink"></span></a> - Test about how to read, write and delete cookies.
       </div>
 
@@ -158,7 +162,7 @@ if (request.getUserPrincipal() != null) {
       </div>
       
       <div id="todays-specials">
-      <a href="birthday.jsp">Birthday surprise<span id="spanlink"></span></a> - How to read on server side form data and respond back to browser depending on the input
+      <a href="birthday.jsp">Birthday surprise<span id="spanlink"></span></a> - How to read server side form data and respond back to browser depending on the input
       </div>
 
       <div id="todays-specials">
