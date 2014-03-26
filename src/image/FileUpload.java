@@ -28,6 +28,16 @@ import com.google.appengine.api.images.Transform;
 
 public class FileUpload extends HttpServlet {
 
+//	@Override
+//	public void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+//
+//		RequestDispatcher disp;
+//		disp = getServletContext().getRequestDispatcher("/image.jsp");
+//
+//		if (disp != null)
+//			disp.forward(request, response);
+//	}
+
 //	private static final Logger log = Logger.getLogger("petteri");
 
 	@Override

@@ -40,7 +40,7 @@ public class GetImageServlet extends HttpServlet {
         	Blob b = (Blob) entity.getProperty("Image");
             // Set the appropriate Content-Type header and write the raw bytes
             // to the response's output stream
-            resp.setContentType("image/png");
+            resp.setContentType("image/jpeg");
             resp.getOutputStream().write(b.getBytes());
         } else {
             // If no image is found with the given title, redirect the user to
